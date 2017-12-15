@@ -5,26 +5,38 @@ html {
 body {
   margin:auto;
   padding:8px;
-  max-width:816px;
-  align-items:center
+  max-width:800px;
+  align-items:center;
 }
 
-.card-collection {
+.projects {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  justify-content:center;
-  align-items:center;
+  justify-content: flex-start;
   width:100%;
-  margin:auto
+  margin:32px auto 32px auto;
+  padding: 0;
 }
 
-.card-collection > .card-frame {
-  flex:1;
-  min-width:256px;
-  max-width:400px;
+.projects > h1 {
+  width: 100%;
+  font-size: 32px;
+  margin: 0 8px 4px 8px;
+}
+
+.projects > .card-frame {
+  flex: 1;
+  min-width: 256px;
+  max-width: calc(50% - 16px);
   height:256px;
   margin:8px
+}
+
+@media screen and (max-width: 576px) {
+  .projects > .card-frame {
+    max-width: 512px;
+  }
 }
 
 h1 {
