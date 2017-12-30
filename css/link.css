@@ -1,6 +1,5 @@
 a {
   font-family: Sans-Serif;
-  text-transform: uppercase;
   color: #009688;
   font-weight: bold;
   text-decoration: none;
@@ -9,5 +8,3 @@ a {
   -webkit-box-sizing: border-box; }
   a:focus, a:hover {
     border-bottom: 2px solid #009688; }
-
-/*# sourceMappingURL=link.css.map */
