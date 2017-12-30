@@ -35,7 +35,7 @@ main {
 
 @media screen and (min-width: 590px) {
   .projects > .card-frame {
-    max-width: calc(50% - 32px);
+    max-width: calc(50% - 16px);
   }
 }
 h1 {
