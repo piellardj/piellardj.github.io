@@ -21,7 +21,7 @@ main {
 
 .projects > h1 {
   width: 100%;
-  font-size: 32px;
+  font-size: 200%;
   margin: 0 8px 4px 8px;
 }
 
@@ -33,7 +33,7 @@ main {
   margin:8px
 }
 
-@media screen and (min-width: 590px) {
+@media screen and (min-width: 528px) {
   .projects > .card-frame {
     max-width: calc(50% - 16px);
   }
