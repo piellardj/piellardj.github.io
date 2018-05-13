@@ -1,0 +1,27 @@
+{
+  "name": "piellardj.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-watch": "node-sass --watch scss/ -o css/ --output-style expanded",
+    "css-build": "node-sass scss/ -o css/ --output-style expanded",
+    "css-build-min": "node-sass scss/concatenated.scss -o css/min --output-style compressed",
+    "clean": "rm -rf css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piellardj/piellardj.github.io.git"
+  },
+  "author": "Jérémie PIELLARD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piellardj/piellardj.github.io/issues"
+  },
+  "homepage": "https://github.com/piellardj/piellardj.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "sass": "^1.3.2"
+  }
+}
