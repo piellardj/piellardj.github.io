@@ -39,10 +39,10 @@ html {
     }
 }
   
-@media screen and (min-width: 528px) {
-    .projects>.card-frame {
-        max-width: calc(50% - 16px);
-    }
-}
+// @media screen and (min-width: 528px) {
+//     .projects>.card-frame {
+//         max-width: calc(50% - 16px);
+//     }
+// }
 
 } //@if not(page-file-included)
