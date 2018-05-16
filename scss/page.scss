@@ -8,6 +8,7 @@ html {
   }
   
   main {
+    display: block; /* for IE */
     margin: auto;
     padding: 8px;
     max-width: 800px;
