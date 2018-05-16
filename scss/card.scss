@@ -26,7 +26,7 @@ $title-color-transparent :rgba(0, 150, 136, 0);
     flex-direction: column;
 
     &.card-reveal {
-        @include transform(translateY( calc(100% - 36px)));
+        @include transform(translateY(100%) translateY(-36px));
         @include transition(0.2s ease-in-out)
     }
 }
