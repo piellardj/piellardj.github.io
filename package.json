@@ -4,9 +4,9 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "css-watch": "node-sass --watch scss/ -o css/ --output-style expanded",
-    "css-build": "node-sass scss/ -o css/ --output-style expanded",
-    "css-build-min": "node-sass scss/concatenated.scss -o css/min --output-style compressed",
+    "css-watch": "node-sass --watch src/scss/ -o css/ --output-style expanded",
+    "css-build": "node-sass src/scss/ -o css/ --output-style expanded",
+    "css-build-min": "node-sass src/scss/concatenated.scss -o css/min --output-style compressed",
     "clean": "shx rm -rf css/"
   },
   "repository": {
