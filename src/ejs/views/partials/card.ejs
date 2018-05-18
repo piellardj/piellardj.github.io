@@ -1,0 +1,21 @@
+<div class="card-frame" style="background-image:url('#=(card.background)');">
+    <div class="card-content card-reveal">
+        <div class="card-title">#=(card.title)</div>
+        <div class="card-body">
+            #_ const paragraphs = card.body;
+            #_ include ../partials/paragraphs.ejs
+        </div>
+        <div class="card-footer">
+            #_ if (card.githubLink) {
+            <div>
+                <a href="https://github.com/piellardj/#=(card.projectName)/">GitHub</a>
+            </div>
+            #_ }
+            #_ if (card.liveLink) {
+            <div>
+                <a href="https://piellardj.github.io/#=(card.projectName)/">See live</a>
+            </div>
+            #_ }
+        </div>
+    </div>
+</div>

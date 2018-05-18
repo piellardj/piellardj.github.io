@@ -7,7 +7,8 @@
     "css-watch": "node-sass --watch src/scss/ -o css/ --output-style expanded",
     "css-build": "node-sass src/scss/ -o css/ --output-style expanded",
     "css-build-min": "node-sass src/scss/concatenated.scss -o css/min --output-style compressed",
-    "clean": "shx rm -rf css/"
+    "clean": "shx rm -rf css/ index.html",
+    "html-build": "node src/ejs/build-html.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   "license": "ISC",
   "homepage": "https://piellardj.github.io",
   "dependencies": {
+    "ejs": "^2.6.1",
     "node-sass": "^4.9.0",
+    "pretty": "^2.0.0",
     "shx": "^0.2.2"
   }
 }
