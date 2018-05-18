@@ -4,6 +4,12 @@
   <title>#=(page.title)</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  #_ if(favicons.length > 0) {
+
+  #_ }
+  #_ favicons.forEach(function(favicon) {
+    <link rel="icon" type="image/png" href="#=(favicon.path)" sizes=#=(favicon.resolution)>
+  #_ })
   #_ if(css.length > 0) {
 
   #_ }
