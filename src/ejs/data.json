@@ -6,6 +6,7 @@
     "css": [
         "css/min/concatenated.css"
     ],
+    "scripts": [],
     "sections": [
         {
             "title": "WebGL",
