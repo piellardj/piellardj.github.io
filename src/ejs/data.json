@@ -1,26 +1,26 @@
 {
     "page": {
         "description": "Portfolio of small OpenGL and WebGL projects",
-        "title": "Projects - Jérémie Piellard"
+        "title": "Projects - Jérémie Piellard",
+        "favicons": [
+            {
+                "path": "favicon-16x16.png",
+                "resolution": "16x16"
+            },
+            {
+                "path": "favicon-32x32.png",
+                "resolution": "32x32"
+            },
+            {
+                "path": "favicon-96x96.png",
+                "resolution": "96x96"
+            }
+        ],
+        "css": [
+            "css/min/concatenated.css"
+        ],
+        "scripts": []
     },
-    "favicons": [
-        {
-            "path": "favicon-16x16.png",
-            "resolution": "16x16"
-        },
-        {
-            "path": "favicon-32x32.png",
-            "resolution": "32x32"
-        },
-        {
-            "path": "favicon-96x96.png",
-            "resolution": "96x96"
-        }
-    ],
-    "css": [
-        "css/min/concatenated.css"
-    ],
-    "scripts": [],
     "sections": [
         {
             "title": "WebGL",
