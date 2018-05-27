@@ -4,20 +4,20 @@
         "title": "Projects - Jérémie Piellard",
         "favicons": [
             {
-                "path": "favicon-16x16.png",
-                "resolution": "16x16"
-            },
-            {
                 "path": "favicon-32x32.png",
                 "resolution": "32x32"
             },
             {
                 "path": "favicon-96x96.png",
                 "resolution": "96x96"
+            },
+            {
+                "path": "favicon-196x196.png",
+                "resolution": "196x196"
             }
         ],
         "css": [
-            "css/min/concatenated.css"
+            "css/homepage-1.0.0.min.css"
         ],
         "scripts": []
     },

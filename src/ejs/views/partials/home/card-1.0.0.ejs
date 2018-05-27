@@ -3,17 +3,19 @@
         <div class="card-title">#=(card.title)</div>
         <div class="card-body">
             #_ const paragraphs = card.body;
-            #_ include ../partials/paragraphs.ejs
+            #_ include ../common/paragraphs-1.0.0.ejs
         </div>
         <div class="card-footer">
             #_ if (card.githubLink) {
             <div>
-                <a href="https://github.com/piellardj/#=(card.projectName)/">GitHub</a>
+                #_ const link = {url: "https://github.com/piellardj/" + card.projectName + "/", text: "GitHub"};
+                #_ include ../common/link-1.0.0.ejs
             </div>
             #_ }
             #_ if (card.liveLink) {
             <div>
-                <a href="https://piellardj.github.io/#=(card.projectName)/">See live</a>
+                #_ const link = {url: "https://piellardj.github.io/" + card.projectName + "/", text: "See live"};
+                #_ include ../common/link-1.0.0.ejs
             </div>
             #_ }
         </div>
