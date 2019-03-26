@@ -1,22 +1,22 @@
 {
   "name": "piellardj.github.io",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Homepage",
   "private": true,
+  "homepage": "https://piellardj.github.io",
+  "repository": "github:piellardj/piellardj.github.io",
   "main": "src/main.js",
   "scripts": {
-    "copy-assets": "shx cp -r src/images images",
-    "generate-page": "node src/main.js src/data.json .",
+    "copy-assets": "shx cp -r src/images/* images",
+    "generate-page": "node src/main.js ./src/data.json .",
     "build": "npm run generate-page && npm run copy-assets",
+    "rebuild": "npm run clean && npm run build",
     "clean": "shx rm -rf css images favicon-* *.html"
   },
-  "dependencies": {
-    "shx": "^0.3.2",
-    "webpage-builder": "github:piellardj/webpage-builder#0.0.1",
-    "@types/webpage-builder": "github:piellardj/webpage-builder#0.0.1"
-  },
-  "repository": "github:piellardj/piellardj.github.io",
   "author": "Jérémie PIELLARD",
   "license": "ISC",
-  "homepage": "https://piellardj.github.io"
+  "dependencies": {
+    "shx": "^0.3.2",
+    "webpage-templates": "github:piellardj/webpage-templates"
+  }
 }

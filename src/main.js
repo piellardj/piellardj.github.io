@@ -1,5 +1,5 @@
 const fs = require("fs");
-const Builder = require("webpage-builder");
+const Builder = require("webpage-templates");
 
 if (process.argv.length !== 4) {
     console.log("Usage: <script> <dstDir>");
@@ -11,5 +11,4 @@ const args = process.argv.slice(2);
 const dataFilepath = args[0];
 const dstDir = args[1];
 
-const data = JSON.parse(fs.readFileSync(dataFilepath).toString());
-Builder.Homepage.generate(dstDir, data);
+Builder.Homepage.build(dstDir, dataFilepath);
