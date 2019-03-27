@@ -6,6 +6,17 @@
             "title": "WebGL",
             "cards": [
                 {
+                    "background": "images/projects/panoramas.jpg",
+                    "title": "Panoramas",
+                    "body": [
+                        "This small project is a simple tool for visualizing, editing and converting panoramas.",
+                        "It supports skysphere, skybox and tiny planet formats, and can convert from one to another."
+                    ],
+                    "projectName": "panoramas-webgl",
+                    "githubLink": true,
+                    "liveLink": true
+                },
+                {
                     "background": "images/projects/pool.jpg",
                     "title": "Pool",
                     "body": [
