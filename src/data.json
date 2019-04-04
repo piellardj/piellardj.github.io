@@ -5,6 +5,17 @@
         {
             "title": "WebGL",
             "cards": [
+				{
+                    "background": "images/projects/game-of-life.jpg",
+                    "title": "Game of Life",
+                    "body": [
+                        "This project is a simple simulation of Conway's Game of Life, running on GPU.",
+						"The rules can be changed to see how the world evolves."
+                    ],
+                    "projectName": "game-of-life-webgl",
+                    "githubLink": true,
+                    "liveLink": true
+                },
                 {
                     "background": "images/projects/panoramas.jpg",
                     "title": "Panoramas",
