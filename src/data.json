@@ -5,6 +5,17 @@
         {
             "title": "WebGL",
             "cards": [
+                {
+                    "background": "images/projects/chaos-game.png",
+                    "title": "Chaos Game",
+                    "body": [
+                        "This project is an implementation of the Chaos Game, running on CPU and rendered with WebGL.",
+						"A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore."
+                    ],
+                    "projectName": "chaos-game-webgl",
+                    "githubLink": true,
+                    "liveLink": true
+                },
 				{
                     "background": "images/projects/game-of-life.jpg",
                     "title": "Game of Life",

@@ -15,9 +15,28 @@
   </head>
 
   <body>
+    <header>
+      <a id="logo"></a>
+    </header>
+
     <main>
       <section class="projects">
         <h1>WebGL</h1>
+        <div class="card-frame" style="background-image:url('images/projects/chaos-game.png');">
+          <div class="card-content card-reveal">
+            <div class="card-title">Chaos Game</div>
+            <div class="card-body">
+              <p>This project is an implementation of the Chaos Game, running on CPU and rendered with WebGL.</p>
+              <p>A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore.</p>
+            </div>
+            <div class="card-footer">
+              <div>
+                <a href="https://github.com/piellardj/chaos-game-webgl/">GitHub</a> </div>
+              <div>
+                <a href="https://piellardj.github.io/chaos-game-webgl/">See live</a> </div>
+            </div>
+          </div>
+        </div>
         <div class="card-frame" style="background-image:url('images/projects/game-of-life.jpg');">
           <div class="card-content card-reveal">
             <div class="card-title">Game of Life</div>
@@ -112,6 +131,7 @@
             </div>
           </div>
         </div>
+        <div class="card-placeholder"></div>
       </section>
       <section class="projects">
         <h1>OpenGL</h1>
@@ -223,6 +243,7 @@
         </a>
       </div>
     </footer>
+    <script src="script/page.min.js"></script>
   </body>
 
 </html>
