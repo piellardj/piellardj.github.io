@@ -6,6 +6,17 @@
             "title": "WebGL",
             "cards": [
                 {
+                    "background": "images/projects/strange-attractors.jpg",
+                    "title": "Strange Attractors",
+                    "body": [
+                        "This project is a performant 2D strange attractors plotter. It allows you to explore different types of attractors and play with various parameters",
+                        "Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns."
+                    ],
+                    "projectName": "strange-attractors-webgl",
+                    "githubLink": true,
+                    "liveLink": true
+                },
+                {
                     "background": "images/projects/chaos-game.png",
                     "title": "Chaos Game",
                     "body": [
