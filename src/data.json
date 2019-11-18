@@ -147,14 +147,15 @@
             "title": "Other",
             "cards": [
                 {
-                    "background": "images/projects/bomberman.jpg",
-                    "title": "Bomberman",
+                    "background": "images/projects/ldap-filter-analyzer.png",
+                    "title": "LDAP filter analyzer",
                     "body": [
-                        "'Bomberman' is one of my first projects.\nIt is my take on the 80's classic."
+                        "This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.",
+                        "The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input."
                     ],
-                    "projectName": "bomberman-sfml",
+                    "projectName": "ldap-filter-analyzer",
                     "githubLink": true,
-                    "liveLink": false
+                    "liveLink": true
                 },
                 {
                     "background": "images/projects/sampler-2D.png",
@@ -163,6 +164,16 @@
                         "'Sampler 2D' is a micro-project.\nIt provides a way to efficiently generate random samples from a discrete 2D density function."
                     ],
                     "projectName": "sampler2D",
+                    "githubLink": true,
+                    "liveLink": false
+                },
+                {
+                    "background": "images/projects/bomberman.jpg",
+                    "title": "Bomberman",
+                    "body": [
+                        "'Bomberman' is one of my first projects.\nIt is my take on the 80's classic."
+                    ],
+                    "projectName": "bomberman-sfml",
                     "githubLink": true,
                     "liveLink": false
                 }
