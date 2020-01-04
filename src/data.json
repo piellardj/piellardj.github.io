@@ -166,16 +166,6 @@
                     "projectName": "sampler2D",
                     "githubLink": true,
                     "liveLink": false
-                },
-                {
-                    "background": "images/projects/bomberman.jpg",
-                    "title": "Bomberman",
-                    "body": [
-                        "'Bomberman' is one of my first projects.\nIt is my take on the 80's classic."
-                    ],
-                    "projectName": "bomberman-sfml",
-                    "githubLink": true,
-                    "liveLink": false
                 }
             ]
         }
