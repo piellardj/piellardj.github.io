@@ -3,7 +3,7 @@
     "title": "Projects - Jérémie Piellard",
     "sections": [
         {
-            "title": "WebGL",
+            "title": "Web",
             "cards": [
                 {
                     "background": "images/projects/strange-attractors.jpg",
@@ -92,11 +92,22 @@
                     "projectName": "paint-webgl",
                     "githubLink": true,
                     "liveLink": true
+                },
+                {
+                    "background": "images/projects/ldap-filter-analyzer.png",
+                    "title": "LDAP filter analyzer",
+                    "body": [
+                        "This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.",
+                        "The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input."
+                    ],
+                    "projectName": "ldap-filter-analyzer",
+                    "githubLink": true,
+                    "liveLink": true
                 }
             ]
         },
         {
-            "title": "OpenGL",
+            "title": "OpenGL / other",
             "cards": [
                 {
                     "background": "images/projects/voxelizer.jpg",
@@ -140,22 +151,6 @@
                     "projectName": "particles-gpu",
                     "githubLink": true,
                     "liveLink": false
-                }
-            ]
-        },
-        {
-            "title": "Other",
-            "cards": [
-                {
-                    "background": "images/projects/ldap-filter-analyzer.png",
-                    "title": "LDAP filter analyzer",
-                    "body": [
-                        "This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.",
-                        "The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input."
-                    ],
-                    "projectName": "ldap-filter-analyzer",
-                    "githubLink": true,
-                    "liveLink": true
                 },
                 {
                     "background": "images/projects/sampler-2D.png",
