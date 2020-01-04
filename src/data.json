@@ -6,6 +6,17 @@
             "title": "Web",
             "cards": [
                 {
+                    "background": "images/projects/picasso-fourier.jpg",
+                    "title": "Picasso - Fourier",
+                    "body": [
+                        "This project is at the intersection between art and mathematics. It uses the power of Fourier Transform to decompose the apparent simplicity of Picasso's single line drawings.",
+                        "You can dynamically change the complexity of the sketches and visualize how Fourier manages to build a complex signal using only sines and cosines."
+                    ],
+                    "projectName": "picasso-fourier",
+                    "githubLink": true,
+                    "liveLink": true
+                },
+                {
                     "background": "images/projects/strange-attractors.jpg",
                     "title": "Strange Attractors",
                     "body": [
