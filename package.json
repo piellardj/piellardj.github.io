@@ -1,14 +1,14 @@
 {
   "name": "piellardj.github.io",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Homepage",
   "private": true,
   "homepage": "https://piellardj.github.io",
   "repository": "github:piellardj/piellardj.github.io",
-  "main": "src/main.js",
+  "main": "src/generate-page.ts",
   "scripts": {
     "copy-assets": "shx cp -r src/images/* images",
-    "generate-page": "node src/main.js ./src/data.json .",
+    "generate-page": "ts-node-script src/generate-page.ts .",
     "build": "npm run generate-page && npm run copy-assets",
     "rebuild": "npm run clean && npm run build",
     "clean": "shx rm -rf css images script favicon-* *.html"
@@ -16,7 +16,10 @@
   "author": "Jérémie PIELLARD",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^14.11.1",
     "shx": "^0.3.2",
-    "webpage-templates": "github:piellardj/webpage-templates"
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "webpage-templates": "file:C:\\Users\\Jeremie\\Documents\\GitHub\\webpage-templates"
   }
 }

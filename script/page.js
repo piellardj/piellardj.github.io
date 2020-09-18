@@ -1,60 +1,52 @@
-(function() {
-    const logo = document.getElementById("logo");
-    const projectsUrls = [];
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+var Homepage;
+(function (Homepage) {
     /* Retrieve projects URLs from DOM, in their order of appearance */
-    {
-        const projectUrlStart = "https://piellardj.github.io/";
-
+    function retrieveProjectsUrls() {
+        var projectUrlStart = "https://piellardj.github.io/";
+        var result = [];
         // don't use forEach because not standard and fails on IE11
-        const potentialLinks = document.querySelectorAll(".card-footer a");
-        for (let i = 0; i < potentialLinks.length; ++i) {
-            const href = potentialLinks[i].href;
+        var potentialLinks = document.querySelectorAll(".card-footer a");
+        for (var i = 0; i < potentialLinks.length; ++i) {
+            var href = potentialLinks[i].href;
             if (href && href.indexOf(projectUrlStart) === 0) {
-                projectsUrls.push(href);
+                result.push(href);
             }
         }
+        return result;
     }
-
-    /**
-     * @param {string[]} list
-     */
     function shuffleList(list) {
-        let tmp;
-        /**
-         * Swaps two elements from the list
-         * @param {number} index1
-         * @param {number} index2
-         */
         function swap(index1, index2) {
-            tmp = list[index1];
-            list[index1] = list[index2];
-            list[index2] = tmp;
+            if (index1 !== index2) {
+                var tmp = list[index1];
+                list[index1] = list[index2];
+                list[index2] = tmp;
+            }
         }
-
-        for (let max = list.length; max > 0; --max) {
-            swap(max - 1, Math.floor(0.9999 * max * Math.random()));
+        for (var currentIndex = list.length - 1; currentIndex > 0; --currentIndex) {
+            var substituteIndex = Math.floor(0.9999 * currentIndex * Math.random());
+            swap(currentIndex, substituteIndex);
         }
     }
-
-    let nextIndex = 0;
-    /**
-     * Updates the logo's href with an url from the shuffled list.
-     */
-    function randomizeLogoHref() {
-        if (nextIndex === 0) {
-            shuffleList(projectsUrls);
+    var logo = document.querySelector("a#logo");
+    if (logo) {
+        var projectsUrls_1 = retrieveProjectsUrls();
+        var nextIndex_1 = 0;
+        /**
+         * Updates the logo's href with an url from the shuffled list.
+         */
+        function randomizeLogoHref() {
+            if (nextIndex_1 === 0) {
+                shuffleList(projectsUrls_1);
+            }
+            logo.href = projectsUrls_1[nextIndex_1];
+            nextIndex_1 = (nextIndex_1 + 1) % projectsUrls_1.length;
         }
-
-        logo.href = projectsUrls[nextIndex];
-        nextIndex = (nextIndex + 1) % projectsUrls.length;
+        logo.classList.add("dynamic-logo");
+        logo.href = "#"; // default value if no projects on the page
+        logo.onclick = randomizeLogoHref;
+        logo.onauxclick = randomizeLogoHref;
+        randomizeLogoHref();
     }
-
-    logo.classList.add("dynamic-logo");
-    logo.href = "#"; // default value if no projects on the page
-    logo.onclick = randomizeLogoHref;
-    logo.onauxclick = randomizeLogoHref;
-    randomizeLogoHref();
-})();
-
+})(Homepage || (Homepage = {}));
 
