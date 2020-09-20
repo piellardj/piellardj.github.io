@@ -20,6 +20,6 @@
     "shx": "^0.3.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
-    "webpage-templates": "file:C:\\Users\\Jeremie\\Documents\\GitHub\\webpage-templates"
+    "webpage-templates": "github:piellardj/webpage-templates"
   }
 }
