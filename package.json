@@ -11,7 +11,7 @@
     "generate-page": "ts-node-script src/generate-page.ts .",
     "build": "npm run generate-page && npm run copy-assets",
     "rebuild": "npm run clean && npm run build",
-    "clean": "shx rm -rf css images script favicon-* *.html"
+    "clean": "shx rm -rf css images/*.* script favicon-* *.html"
   },
   "author": "Jérémie PIELLARD",
   "license": "ISC",
