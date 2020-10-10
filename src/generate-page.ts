@@ -15,6 +15,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/rorschach-webgl.jpg",
+                    title: "Rorscach",
+                    body: [
+                        "Rorschach is the most  fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.",
+                        "This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it."
+                    ],
+                    projectName: "rorschach-webgl",
+                    githubLink: true,
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
+                },
+                {
                     background: "images/projects/picasso-fourier.jpg",
                     title: "Picasso - Fourier",
                     body: [
@@ -41,18 +53,18 @@ const data = {
                     title: "Chaos Game",
                     body: [
                         "This project is an implementation of the Chaos Game, running on CPU and rendered with WebGL.",
-						"A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore."
+                        "A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore."
                     ],
                     projectName: "chaos-game-webgl",
                     githubLink: true,
                     liveLink: true
                 },
-				{
+                {
                     background: "images/projects/game-of-life.jpg",
                     title: "Game of Life",
                     body: [
                         "This project is a simple simulation of Conway's Game of Life, running on GPU.",
-						"The rules can be changed to see how the world evolves."
+                        "The rules can be changed to see how the world evolves."
                     ],
                     projectName: "game-of-life-webgl",
                     githubLink: true,
