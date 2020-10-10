@@ -16,7 +16,7 @@ const data = {
             cards: [
                 {
                     background: "images/projects/rorschach-webgl.jpg",
-                    title: "Rorscach",
+                    title: "Rorschach",
                     body: [
                         "Rorschach is the most  fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.",
                         "This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it."
