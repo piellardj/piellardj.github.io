@@ -15,6 +15,17 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/image-stylization-sines.png",
+                    title: "Sine waves",
+                    body: [
+                        "This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.",
+                        "The result can be exported in the SVG format."
+                    ],
+                    projectName: "image-stylization-sines",
+                    githubLink: true,
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/rorschach-webgl.jpg",
                     title: "Rorschach",
                     body: [
@@ -90,7 +101,8 @@ const data = {
                     ],
                     projectName: "pool-webgl",
                     githubLink: true,
-                    liveLink: true
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true",
                 },
                 {
                     background: "images/projects/navier-stokes.jpg",
