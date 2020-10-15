@@ -7,9 +7,8 @@
   "repository": "github:piellardj/piellardj.github.io",
   "main": "src/generate-page.ts",
   "scripts": {
-    "copy-assets": "shx cp -r src/images/* images",
     "generate-page": "ts-node-script src/generate-page.ts .",
-    "build": "npm run generate-page && npm run copy-assets",
+    "build": "npm run generate-page",
     "rebuild": "npm run clean && npm run build",
     "clean": "shx rm -rf css images/*.* script favicon-* *.html"
   },
