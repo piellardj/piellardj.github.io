@@ -15,6 +15,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/packing-webgl.jpg",
+                    title: "Packing",
+                    body: [
+                        "This is the implementation of a simple packing algorithm running on CPU. Each new item is given a random position, and then grows as big as possible without intersecting the others.",
+                        "You can zoom anywhere you want by using the left mouse button."                
+                    ],
+                    projectName: "packing-webgl",
+                    githubLink: true,
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
+                },
+                {
                     background: "images/projects/image-stylization-sines.png",
                     title: "Sine waves",
                     body: [
