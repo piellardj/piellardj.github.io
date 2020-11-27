@@ -29,7 +29,7 @@ const data = {
                 },
                 {
                     background: "images/projects/image-stylization-sines_512.png",
-                    background_light: "images/projects/image-stylization-sines_512.webp",
+                    background_light: "images/projects/image-stylization-sines_512.png",
                     background_light_highdpi: "images/projects/image-stylization-sines_1024.webp",
                     title: "Sine waves",
                     body: [
