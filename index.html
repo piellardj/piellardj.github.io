@@ -22,308 +22,337 @@
     <main>
       <section class="projects">
         <h1>Web</h1>
-        <div class="card-frame" style="background-image:url('images/projects/packing-webgl.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Packing</div>
-            <div class="card-body">
-              <p>This is the implementation of a simple packing algorithm running on CPU. Each new item is given a random position, and then grows as big as possible without intersecting the others.</p>
-              <p>You can zoom anywhere you want by using the left mouse button.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/packing-webgl/">GitHub</a>
+        <div class="projects-grid">
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Packing</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/packing-webgl_512.webp, images/projects/packing-webgl_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/packing-webgl_512.png" alt="Illustration for Packing" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This is the implementation of a simple packing algorithm running on CPU. Each new item is given a random position, and then grows as big as possible without intersecting the others.</p>
+                  <p>You can zoom anywhere you want by using the left mouse button.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/packing-webgl/?page%3Acanvas%3Afullscreen=true">See live</a>
+                </div>
               </div>
-              <div>
-                <a href="https://piellardj.github.io/packing-webgl/?page%3Acanvas%3Afullscreen=true">See live</a>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Sine waves</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/image-stylization-sines_512.webp, images/projects/image-stylization-sines_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/image-stylization-sines_512.png" alt="Illustration for Sine waves" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.</p>
+                  <p>The result can be exported in the SVG format.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/image-stylization-sines/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Rorschach</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/rorschach-webl_512.webp, images/projects/rorschach-webl_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/rorschach-webl_512.png" alt="Illustration for Rorschach" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>Rorschach is the most fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.</p>
+                  <p>This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/rorschach-webgl/?page%3Acanvas%3Afullscreen=true">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Picasso - Fourier</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/picasso-fourier_512.webp, images/projects/picasso-fourier_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/picasso-fourier_512.png" alt="Illustration for Picasso - Fourier" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is at the intersection between art and mathematics. It uses the power of Fourier Transform to decompose the apparent simplicity of Picasso's single line drawings.</p>
+                  <p>You can dynamically change the complexity of the sketches and visualize how Fourier manages to build a complex signal using only sines and cosines.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/picasso-fourier/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Strange Attractors</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/strange-attractors_512.webp, images/projects/strange-attractors_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/strange-attractors_512.png" alt="Illustration for Strange Attractors" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is a performant 2D strange attractors plotter. It allows you to explore different types of attractors and play with various parameters.</p>
+                  <p>Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/strange-attractors-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Chaos Game</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/chaos-game_512.jpg, images/projects/chaos-game_1024.jpg 1.1x">
+                <img class="card-image" src="images/projects/chaos-game_512.png" alt="Illustration for Chaos Game" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is an implementation of the Chaos Game, running on CPU and rendered with WebGL.</p>
+                  <p>A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/chaos-game-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Game of Life</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/game-of-life-webgl_512.webp, images/projects/game-of-life-webgl_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/game-of-life-webgl_512.png" alt="Illustration for Game of Life" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is a simple simulation of Conway's Game of Life, running on GPU.</p>
+                  <p>The rules can be changed to see how the world evolves.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/game-of-life-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Panoramas</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/panoramas_512.webp, images/projects/panoramas_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/panoramas_512.jpg" alt="Illustration for Panoramas" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This small project is a simple tool for visualizing, editing and converting panoramas.</p>
+                  <p>It supports skysphere, skybox and tiny planet formats, and can convert from one to another.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/panoramas-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Pool</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/pool-webgl_512.webp, images/projects/pool-webgl_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/pool-webgl_512.png" alt="Illustration for Pool" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is a WebGL water simulation running entirely on your GPU.
+                    You can interact with the water, and visualize it both in 2D and 3D.</p>
+                  <p>The water surface is modeled as a grid of springs.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/pool-webgl/?page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Navier-Stokes</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <img class="card-image" src="images/projects/navier-stokes.jpg" alt="Illustration for Navier-Stokes" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is a WebGL incompressible fluid simulation running entirely on your GPU.
+                    You can interact with the fluid with the left mouse button and visualize both the velocity and the pressure of the fluid.</p>
+                  <p>This is an implementation of the Stable Fluid described by J. Stam.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/navier-stokes-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Waterfall</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <img class="card-image" src="images/projects/waterfall.jpg" alt="Illustration for Waterfall" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Waterfall' is a simple waterfall simulation, based on a particle system.
+                    The particles bounce off obstacles, creating water streams and droplets.</p>
+                  <p>The whole simulation runs on GPU.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/waterfall-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Paint</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/paint_512.webp, images/projects/paint_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/paint_512.png" alt="Illustration for Paint" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Paint' is a dynamic painting simulation.
+                    The moving paint strokes highlight the geometry, and you can interact with them to shape the painting.</p>
+                  <p>The whole simulation runs on GPU.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/paint-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">LDAP filter analyzer</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/ldap-filter-analyzer_512.webp, images/projects/ldap-filter-analyzer_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/ldap-filter-analyzer_512.png" alt="Illustration for LDAP filter analyzer" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.</p>
+                  <p>The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/ldap-filter-analyzer/">See live</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card-frame" style="background-image:url('images/projects/image-stylization-sines.png');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Sine waves</div>
-            <div class="card-body">
-              <p>This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.</p>
-              <p>The result can be exported in the SVG format.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/image-stylization-sines/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/image-stylization-sines/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/rorschach-webgl.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Rorschach</div>
-            <div class="card-body">
-              <p>Rorschach is the most fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.</p>
-              <p>This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/rorschach-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/rorschach-webgl/?page%3Acanvas%3Afullscreen=true">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/picasso-fourier.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Picasso - Fourier</div>
-            <div class="card-body">
-              <p>This project is at the intersection between art and mathematics. It uses the power of Fourier Transform to decompose the apparent simplicity of Picasso's single line drawings.</p>
-              <p>You can dynamically change the complexity of the sketches and visualize how Fourier manages to build a complex signal using only sines and cosines.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/picasso-fourier/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/picasso-fourier/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/strange-attractors.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Strange Attractors</div>
-            <div class="card-body">
-              <p>This project is a performant 2D strange attractors plotter. It allows you to explore different types of attractors and play with various parameters.</p>
-              <p>Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/strange-attractors-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/strange-attractors-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/chaos-game.png');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Chaos Game</div>
-            <div class="card-body">
-              <p>This project is an implementation of the Chaos Game, running on CPU and rendered with WebGL.</p>
-              <p>A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/chaos-game-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/chaos-game-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/game-of-life.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Game of Life</div>
-            <div class="card-body">
-              <p>This project is a simple simulation of Conway's Game of Life, running on GPU.</p>
-              <p>The rules can be changed to see how the world evolves.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/game-of-life-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/game-of-life-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/panoramas.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Panoramas</div>
-            <div class="card-body">
-              <p>This small project is a simple tool for visualizing, editing and converting panoramas.</p>
-              <p>It supports skysphere, skybox and tiny planet formats, and can convert from one to another.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/panoramas-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/panoramas-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/pool.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Pool</div>
-            <div class="card-body">
-              <p>This project is a WebGL water simulation running entirely on your GPU.
-                You can interact with the water, and visualize it both in 2D and 3D.</p>
-              <p>The water surface is modeled as a grid of springs.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/pool-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/pool-webgl/?page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/navier-stokes.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Navier-Stokes</div>
-            <div class="card-body">
-              <p>This project is a WebGL incompressible fluid simulation running entirely on your GPU.
-                You can interact with the fluid with the left mouse button and visualize both the velocity and the pressure of the fluid.</p>
-              <p>This is an implementation of the Stable Fluid described by J. Stam.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/navier-stokes-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/navier-stokes-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/waterfall.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Waterfall</div>
-            <div class="card-body">
-              <p>'Waterfall' is a simple waterfall simulation, based on a particle system.
-                The particles bounce off obstacles, creating water streams and droplets.</p>
-              <p>The whole simulation runs on GPU.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/waterfall-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/waterfall-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/paint.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Paint</div>
-            <div class="card-body">
-              <p>'Paint' is a dynamic painting simulation.
-                The moving paint strokes highlight the geometry, and you can interact with them to shape the painting.</p>
-              <p>The whole simulation runs on GPU.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/paint-webgl/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/paint-webgl/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/ldap-filter-analyzer.png');">
-          <div class="card-content card-reveal">
-            <div class="card-title">LDAP filter analyzer</div>
-            <div class="card-body">
-              <p>This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.</p>
-              <p>The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/ldap-filter-analyzer/">GitHub</a>
-              </div>
-              <div>
-                <a href="https://piellardj.github.io/ldap-filter-analyzer/">See live</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-placeholder"></div>
-        <div class="card-placeholder"></div>
       </section>
       <section class="projects">
         <h1>OpenGL / other</h1>
-        <div class="card-frame" style="background-image:url('images/projects/voxelizer.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Voxelizer</div>
-            <div class="card-body">
-              <p>'Voxelizer' is a project that efficiently turns any 3D mesh into a grid of voxels.
-                The voxels are stored as a compact bit array.</p>
-              <p>The whole processing runs fully on GPU.</p>
+        <div class="projects-grid">
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Voxelizer</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/voxelizer_512.webp, images/projects/voxelizer_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/voxelizer_512.png" alt="Illustration for Voxelizer" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Voxelizer' is a project that efficiently turns any 3D mesh into a grid of voxels.
+                    The voxels are stored as a compact bit array.</p>
+                  <p>The whole processing runs fully on GPU.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://github.com/piellardj/voxelizer-gpu/">Github</a>
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/voxelizer-gpu/">GitHub</a>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Parallax mapping</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <img class="card-image" src="images/projects/parallax.jpg" alt="Illustration for Parallax mapping" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Parallax' is a simple demonstration of parallax mapping, with a comparison to other techniques such as normal mapping.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://github.com/piellardj/parallax-mapping/">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Fractal navigator</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/fractal_512.webp, images/projects/fractal_800.webp 1.1x">
+                <img class="card-image" src="images/projects/fractal_512.jpg" alt="Illustration for Fractal navigator" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Fractal' is a Mandelbrot and Julia fractal navigator.</p>
+                  <p>The Julia fractal seed can be chosen dynamically on the Mandelbrot render, making it easy to visualize when the set is connected or not.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://github.com/piellardj/fractal-navigator/">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Particles</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <img class="card-image" src="images/projects/particles.jpg" alt="Illustration for Particles" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Particles' is an interactive particle system evolving with the law of gravitation.
+                    You can use mouse buttons to either attract or repulse the particles.</p>
+                  <p>The whole simulation runs on GPU.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://github.com/piellardj/particles-gpu/">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Sampler 2D</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <img class="card-image" src="images/projects/sampler-2D.png" alt="Illustration for Sampler 2D" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>'Sampler 2D' is a micro-project.
+                    It provides a way to efficiently generate random samples from a discrete 2D density function.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://github.com/piellardj/sampler2D/">Github</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card-frame" style="background-image:url('images/projects/parallax_256.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Parallax mapping</div>
-            <div class="card-body">
-              <p>'Parallax' is a simple demonstration of parallax mapping, with a comparison to other techniques such as normal mapping.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/parallax-mapping/">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/fractal.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Fractal navigator</div>
-            <div class="card-body">
-              <p>'Fractal' is a Mandelbrot and Julia fractal navigator.</p>
-              <p>The Julia fractal seed can be chosen dynamically on the Mandelbrot render, making it easy to visualize when the set is connected or not.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/fractal-navigator/">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/particles.jpg');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Particles</div>
-            <div class="card-body">
-              <p>'Particles' is an interactive particle system evolving with the law of gravitation.
-                You can use mouse buttons to either attract or repulse the particles.</p>
-              <p>The whole simulation runs on GPU.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/particles-gpu/">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-frame" style="background-image:url('images/projects/sampler-2D.png');">
-          <div class="card-content card-reveal">
-            <div class="card-title">Sampler 2D</div>
-            <div class="card-body">
-              <p>'Sampler 2D' is a micro-project.
-                It provides a way to efficiently generate random samples from a discrete 2D density function.</p>
-            </div>
-            <div class="card-footer">
-              <div>
-                <a href="https://github.com/piellardj/sampler2D/">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-placeholder"></div>
       </section>
     </main>
 

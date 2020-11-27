@@ -15,104 +15,113 @@ const data = {
             title: "Web",
             cards: [
                 {
-                    background: "images/projects/packing-webgl.jpg",
+                    background: "images/projects/packing-webgl_512.png",
+                    background_light: "images/projects/packing-webgl_512.webp",
+                    background_light_highdpi: "images/projects/packing-webgl_1024.webp",
                     title: "Packing",
                     body: [
                         "This is the implementation of a simple packing algorithm running on CPU. Each new item is given a random position, and then grows as big as possible without intersecting the others.",
                         "You can zoom anywhere you want by using the left mouse button."                
                     ],
                     projectName: "packing-webgl",
-                    githubLink: true,
                     liveLink: true,
                     liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
                 },
                 {
-                    background: "images/projects/image-stylization-sines.png",
+                    background: "images/projects/image-stylization-sines_512.png",
+                    background_light: "images/projects/image-stylization-sines_512.webp",
+                    background_light_highdpi: "images/projects/image-stylization-sines_1024.webp",
                     title: "Sine waves",
                     body: [
                         "This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.",
                         "The result can be exported in the SVG format."
                     ],
                     projectName: "image-stylization-sines",
-                    githubLink: true,
                     liveLink: true,
                 },
                 {
-                    background: "images/projects/rorschach-webgl.jpg",
+                    background: "images/projects/rorschach-webl_512.png",
+                    background_light: "images/projects/rorschach-webl_512.webp",
+                    background_light_highdpi: "images/projects/rorschach-webl_1024.webp",
                     title: "Rorschach",
                     body: [
                         "Rorschach is the most  fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.",
                         "This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it."
                     ],
                     projectName: "rorschach-webgl",
-                    githubLink: true,
                     liveLink: true,
                     liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
                 },
                 {
-                    background: "images/projects/picasso-fourier.jpg",
+                    background: "images/projects/picasso-fourier_512.png",
+                    background_light: "images/projects/picasso-fourier_512.webp",
+                    background_light_highdpi: "images/projects/picasso-fourier_1024.webp",
                     title: "Picasso - Fourier",
                     body: [
                         "This project is at the intersection between art and mathematics. It uses the power of Fourier Transform to decompose the apparent simplicity of Picasso's single line drawings.",
                         "You can dynamically change the complexity of the sketches and visualize how Fourier manages to build a complex signal using only sines and cosines."
                     ],
                     projectName: "picasso-fourier",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/strange-attractors.jpg",
+                    background: "images/projects/strange-attractors_512.png",
+                    background_light: "images/projects/strange-attractors_512.webp",
+                    background_light_highdpi: "images/projects/strange-attractors_1024.webp",
                     title: "Strange Attractors",
                     body: [
                         "This project is a performant 2D strange attractors plotter. It allows you to explore different types of attractors and play with various parameters.",
                         "Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns."
                     ],
                     projectName: "strange-attractors-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/chaos-game.png",
+                    background: "images/projects/chaos-game_512.png",
+                    background_light: "images/projects/chaos-game_512.jpg",
+                    background_light_highdpi: "images/projects/chaos-game_1024.jpg",
                     title: "Chaos Game",
                     body: [
                         "This project is an implementation of the Chaos Game, running on CPU and rendered with WebGL.",
                         "A single point is moved and drawn millions of times on the canvas according to a few very simple rules, and from the randomness emerge beautiful fractals. Discover hundreds of gorgeous fractals by adjusting the parameters offered by the simulation. A few presets highlight the ones I found but there are many more to explore."
                     ],
                     projectName: "chaos-game-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/game-of-life.jpg",
+                    background: "images/projects/game-of-life-webgl_512.png",
+                    background_light: "images/projects/game-of-life-webgl_512.webp",
+                    background_light_highdpi: "images/projects/game-of-life-webgl_1024.webp",
                     title: "Game of Life",
                     body: [
                         "This project is a simple simulation of Conway's Game of Life, running on GPU.",
                         "The rules can be changed to see how the world evolves."
                     ],
                     projectName: "game-of-life-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/panoramas.jpg",
+                    background: "images/projects/panoramas_512.jpg",
+                    background_light: "images/projects/panoramas_512.webp",
+                    background_light_highdpi: "images/projects/panoramas_1024.webp",
                     title: "Panoramas",
                     body: [
                         "This small project is a simple tool for visualizing, editing and converting panoramas.",
                         "It supports skysphere, skybox and tiny planet formats, and can convert from one to another."
                     ],
                     projectName: "panoramas-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/pool.jpg",
+                    background: "images/projects/pool-webgl_512.png",
+                    background_light: "images/projects/pool-webgl_512.webp",
+                    background_light_highdpi: "images/projects/pool-webgl_1024.webp",
                     title: "Pool",
                     body: [
                         "This project is a WebGL water simulation running entirely on your GPU.\nYou can interact with the water, and visualize it both in 2D and 3D.",
                         "The water surface is modeled as a grid of springs."
                     ],
                     projectName: "pool-webgl",
-                    githubLink: true,
                     liveLink: true,
                     liveLinkArguments: "page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true",
                 },
@@ -124,8 +133,7 @@ const data = {
                         "This is an implementation of the Stable Fluid described by J. Stam."
                     ],
                     projectName: "navier-stokes-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
                     background: "images/projects/waterfall.jpg",
@@ -135,30 +143,31 @@ const data = {
                         "The whole simulation runs on GPU."
                     ],
                     projectName: "waterfall-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/paint.jpg",
+                    background: "images/projects/paint_512.png",
+                    background_light: "images/projects/paint_512.webp",
+                    background_light_highdpi: "images/projects/paint_1024.webp",
                     title: "Paint",
                     body: [
                         "'Paint' is a dynamic painting simulation.\nThe moving paint strokes highlight the geometry, and you can interact with them to shape the painting.",
                         "The whole simulation runs on GPU."
                     ],
                     projectName: "paint-webgl",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 },
                 {
-                    background: "images/projects/ldap-filter-analyzer.png",
+                    background: "images/projects/ldap-filter-analyzer_512.png",
+                    background_light: "images/projects/ldap-filter-analyzer_512.webp",
+                    background_light_highdpi: "images/projects/ldap-filter-analyzer_1024.webp",
                     title: "LDAP filter analyzer",
                     body: [
                         "This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.",
                         "The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input."
                     ],
                     projectName: "ldap-filter-analyzer",
-                    githubLink: true,
-                    liveLink: true
+                    liveLink: true,
                 }
             ]
         },
@@ -166,7 +175,9 @@ const data = {
             title: "OpenGL / other",
             cards: [
                 {
-                    background: "images/projects/voxelizer.jpg",
+                    background: "images/projects/voxelizer_512.png",
+                    background_light: "images/projects/voxelizer_512.webp",
+                    background_light_highdpi: "images/projects/voxelizer_1024.webp",
                     title: "Voxelizer",
                     body: [
                         "'Voxelizer' is a project that efficiently turns any 3D mesh into a grid of voxels.\nThe voxels are stored as a compact bit array.",
@@ -174,20 +185,20 @@ const data = {
                     ],
                     projectName: "voxelizer-gpu",
                     githubLink: true,
-                    liveLink: false
                 },
                 {
-                    background: "images/projects/parallax_256.jpg",
+                    background: "images/projects/parallax.jpg",
                     title: "Parallax mapping",
                     body: [
                         "'Parallax' is a simple demonstration of parallax mapping, with a comparison to other techniques such as normal mapping."
                     ],
                     projectName: "parallax-mapping",
                     githubLink: true,
-                    liveLink: false
                 },
                 {
-                    background: "images/projects/fractal.jpg",
+                    background: "images/projects/fractal_512.jpg",
+                    background_light: "images/projects/fractal_512.webp",
+                    background_light_highdpi: "images/projects/fractal_800.webp",
                     title: "Fractal navigator",
                     body: [
                         "'Fractal' is a Mandelbrot and Julia fractal navigator.",
@@ -195,7 +206,6 @@ const data = {
                     ],
                     projectName: "fractal-navigator",
                     githubLink: true,
-                    liveLink: false
                 },
                 {
                     background: "images/projects/particles.jpg",
@@ -206,7 +216,6 @@ const data = {
                     ],
                     projectName: "particles-gpu",
                     githubLink: true,
-                    liveLink: false
                 },
                 {
                     background: "images/projects/sampler-2D.png",
@@ -216,7 +225,6 @@ const data = {
                     ],
                     projectName: "sampler2D",
                     githubLink: true,
-                    liveLink: false
                 }
             ]
         },

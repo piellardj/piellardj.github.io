@@ -8,7 +8,7 @@ var Page;
             var projectUrlStart = "https://piellardj.github.io/";
             var result = [];
             // don't use forEach because not standard and fails on IE11
-            var potentialLinks = document.querySelectorAll(".card-footer a");
+            var potentialLinks = document.querySelectorAll("a.card-link");
             for (var i = 0; i < potentialLinks.length; ++i) {
                 var href = potentialLinks[i].href;
                 if (href && href.indexOf(projectUrlStart) === 0) {
