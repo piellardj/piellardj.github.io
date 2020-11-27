@@ -28,6 +28,19 @@ const data = {
                     liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
                 },
                 {
+                    background: "images/projects/dithering_512.png",
+                    background_light: "images/projects/dithering_512.png",
+                    background_light_highdpi: "images/projects/dithering_1024.png",
+                    title: "Dithering",
+                    body: [
+                        "This is a simple tool to turn images into a series of lines of varying lengths.",
+                        "The result can be exported in the SVG format."
+                    ],
+                    projectName: "image-stylization-sines",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Atabs%3Apattern-tabs-id=1&page%3Arange%3Alines-count-range-id=70&page%3Arange%3Amax-frequency-range-id=0.18&page%3Atabs%3Alines-type-tabs-id=1&page%3Arange%3Amax-amplitude-range-id=0.5"
+                },
+                {
                     background: "images/projects/image-stylization-sines_512.png",
                     background_light: "images/projects/image-stylization-sines_512.png",
                     background_light_highdpi: "images/projects/image-stylization-sines_1024.webp",
