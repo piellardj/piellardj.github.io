@@ -1,4 +1,5 @@
 import { Homepage } from "webpage-templates";
+import * as Readme from "./readme";
 
 if (process.argv.length !== 3) {
     console.log("Usage: <script> <dstDir>");
@@ -245,3 +246,4 @@ const data = {
 }
 
 Homepage.build(data, destinationDir);
+Readme.generate(data);
