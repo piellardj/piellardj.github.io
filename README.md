@@ -8,20 +8,23 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 ### Packing: [live](https://piellardj.github.io/packing-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/packing-webgl)
 ![Screenshot for Packing](images/projects/packing-webgl_512.png)
 
+### Rorschach: [live](https://piellardj.github.io/rorschach-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/rorschach-webgl)
+![Screenshot for Rorschach](images/projects/rorschach-webl_512.png)
+
+### Strange Attractors: [live](https://piellardj.github.io/strange-attractors-webgl) / [repo](https://github.com/piellardj/strange-attractors-webgl)
+![Screenshot for Strange Attractors](images/projects/strange-attractors_512.png)
+
+### Threading: [live](https://piellardj.github.io/image-stylization-threading) / [repo](https://github.com/piellardj/image-stylization-threading)
+![Screenshot for Threading](images/projects/image-stylization-threading_512.png)
+
 ### Dithering: [live](https://piellardj.github.io/image-stylization-sines/?page%3Atabs%3Apattern-tabs-id=1&page%3Arange%3Alines-count-range-id=70&page%3Arange%3Amax-frequency-range-id=0.18&page%3Atabs%3Alines-type-tabs-id=1&page%3Arange%3Amax-amplitude-range-id=0.5) / [repo](https://github.com/piellardj/image-stylization-sines)
 ![Screenshot for Dithering](images/projects/dithering_512.png)
 
 ### Sine waves: [live](https://piellardj.github.io/image-stylization-sines) / [repo](https://github.com/piellardj/image-stylization-sines)
 ![Screenshot for Sine waves](images/projects/image-stylization-sines_512.png)
 
-### Rorschach: [live](https://piellardj.github.io/rorschach-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/rorschach-webgl)
-![Screenshot for Rorschach](images/projects/rorschach-webl_512.png)
-
 ### Picasso - Fourier: [live](https://piellardj.github.io/picasso-fourier) / [repo](https://github.com/piellardj/picasso-fourier)
 ![Screenshot for Picasso - Fourier](images/projects/picasso-fourier_512.png)
-
-### Strange Attractors: [live](https://piellardj.github.io/strange-attractors-webgl) / [repo](https://github.com/piellardj/strange-attractors-webgl)
-![Screenshot for Strange Attractors](images/projects/strange-attractors_512.png)
 
 ### Chaos Game: [live](https://piellardj.github.io/chaos-game-webgl) / [repo](https://github.com/piellardj/chaos-game-webgl)
 ![Screenshot for Chaos Game](images/projects/chaos-game_512.png)

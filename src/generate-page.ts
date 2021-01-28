@@ -29,6 +29,43 @@ const data = {
                     liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
                 },
                 {
+                    background: "images/projects/rorschach-webl_512.png",
+                    background_light: "images/projects/rorschach-webl_512.webp",
+                    background_light_highdpi: "images/projects/rorschach-webl_1024.webp",
+                    title: "Rorschach",
+                    body: [
+                        "Rorschach is the most  fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.",
+                        "This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it."
+                    ],
+                    projectName: "rorschach-webgl",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
+                },
+                {
+                    background: "images/projects/strange-attractors_512.png",
+                    background_light: "images/projects/strange-attractors_512.webp",
+                    background_light_highdpi: "images/projects/strange-attractors_1024.webp",
+                    title: "Strange Attractors",
+                    body: [
+                        "This project is a performant 2D strange attractors plotter. It allows you to explore different types of attractors and play with various parameters.",
+                        "Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns."
+                    ],
+                    projectName: "strange-attractors-webgl",
+                    liveLink: true,
+                },
+                {
+                    background: "images/projects/image-stylization-threading_512.png",
+                    background_light: "images/projects/image-stylization-threading_512.png",
+                    background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
+                    title: "Threading",
+                    body: [
+                        "This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.",
+                        "The result can be exported in the SVG format."
+                    ],
+                    projectName: "image-stylization-threading",
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/dithering_512.png",
                     background_light: "images/projects/dithering_512.png",
                     background_light_highdpi: "images/projects/dithering_1024.png",
@@ -54,19 +91,6 @@ const data = {
                     liveLink: true,
                 },
                 {
-                    background: "images/projects/rorschach-webl_512.png",
-                    background_light: "images/projects/rorschach-webl_512.webp",
-                    background_light_highdpi: "images/projects/rorschach-webl_1024.webp",
-                    title: "Rorschach",
-                    body: [
-                        "Rorschach is the most  fascinating character of the Watchmen comics, hiding behind an ever-changing mask to become a moral judge instead of acknowledging his own issues with violence.",
-                        "This is my attempt at recreating these patterns on GPU using WebGL, by computing a 3D multiscale gradient noise and thresholding it."
-                    ],
-                    projectName: "rorschach-webgl",
-                    liveLink: true,
-                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
-                },
-                {
                     background: "images/projects/picasso-fourier_512.png",
                     background_light: "images/projects/picasso-fourier_512.webp",
                     background_light_highdpi: "images/projects/picasso-fourier_1024.webp",
@@ -76,18 +100,6 @@ const data = {
                         "You can dynamically change the complexity of the sketches and visualize how Fourier manages to build a complex signal using only sines and cosines."
                     ],
                     projectName: "picasso-fourier",
-                    liveLink: true,
-                },
-                {
-                    background: "images/projects/strange-attractors_512.png",
-                    background_light: "images/projects/strange-attractors_512.webp",
-                    background_light_highdpi: "images/projects/strange-attractors_1024.webp",
-                    title: "Strange Attractors",
-                    body: [
-                        "This project is a performant 2D strange attractors plotter. It allows you to explore different types of attractors and play with various parameters.",
-                        "Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns."
-                    ],
-                    projectName: "strange-attractors-webgl",
                     liveLink: true,
                 },
                 {
