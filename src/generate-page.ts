@@ -59,8 +59,8 @@ const data = {
                     background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
                     title: "Threading",
                     body: [
-                        "This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.",
-                        "The result can be exported in the SVG format."
+                        "This tool generates string art from any picture of your choice. A single-color thread is repeatedly ran from border to border in a straight line. The stacked segments progressively recreate the original image.",
+                        "This process was popularized by Petros Vrellis."
                     ],
                     projectName: "image-stylization-threading",
                     liveLink: true,
