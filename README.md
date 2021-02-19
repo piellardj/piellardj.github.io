@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Ray marching: [live](https://piellardj.github.io/ray-marching-webgl) / [repo](https://github.com/piellardj/ray-marching-webgl)
+![Screenshot for Ray marching](images/projects/ray-marching-webgl_512.jpg)
+
 ### Packing: [live](https://piellardj.github.io/packing-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/packing-webgl)
 ![Screenshot for Packing](images/projects/packing-webgl_512.png)
 

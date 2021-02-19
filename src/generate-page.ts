@@ -16,6 +16,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/ray-marching-webgl_512.jpg",
+                    background_light: "images/projects/ray-marching-webgl_512.webp",
+                    background_light_highdpi: "images/projects/ray-marching-webgl_1024.webp",
+                    title: "Ray marching",
+                    body: [
+                        "This project is a simple WebGL experiment that uses basic ray marching to visualize various types 3D or 4D noise fields.",
+                        "My main goal was to be explore value, gradient and simplex noises in three dimensions. The shader performance could probably be improved."                
+                    ],
+                    projectName: "ray-marching-webgl",
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/packing-webgl_512.png",
                     background_light: "images/projects/packing-webgl_512.webp",
                     background_light_highdpi: "images/projects/packing-webgl_1024.webp",
