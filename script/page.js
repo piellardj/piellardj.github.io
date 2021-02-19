@@ -30,7 +30,7 @@ var Page;
                 swap(currentIndex, substituteIndex);
             }
         }
-        var logo = document.querySelector("a#logo");
+        var logo = document.getElementById("random-project-button");
         if (logo) {
             var projectsUrls_1 = retrieveProjectsUrls();
             var nextIndex_1 = 0;
