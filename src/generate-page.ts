@@ -16,13 +16,26 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/flowers_512.jpg",
+                    background_light: "images/projects/flowers_512.webp",
+                    background_light_highdpi: "images/projects/flowers_1024.webp",
+                    title: "Flowers",
+                    body: [
+                        "This is a naive project painting a flower field. Over time, each flower loses its petals to the wind and eventually dies, only to be replaced by a new one.",
+                        "The stems are modelized as weightless ropes and animated with Verlet integration."
+                    ],
+                    projectName: "flowers",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true",
+                },
+                {
                     background: "images/projects/ray-marching-webgl_512.jpg",
                     background_light: "images/projects/ray-marching-webgl_512.webp",
                     background_light_highdpi: "images/projects/ray-marching-webgl_1024.webp",
                     title: "Ray marching",
                     body: [
                         "This project is a simple WebGL experiment that uses basic ray marching to visualize various types 3D or 4D noise fields.",
-                        "My main goal was to be explore value, gradient and simplex noises in three dimensions. The shader performance could probably be improved."                
+                        "My main goal was to be explore value, gradient and simplex noises in three dimensions. The shader performance could probably be improved."
                     ],
                     projectName: "ray-marching-webgl",
                     liveLink: true,
@@ -34,7 +47,7 @@ const data = {
                     title: "Packing",
                     body: [
                         "This is the implementation of a simple packing algorithm running on CPU. Each new item is given a random position, and then grows as big as possible without intersecting the others.",
-                        "You can zoom anywhere you want by using the left mouse button."                
+                        "You can zoom anywhere you want by using the left mouse button."
                     ],
                     projectName: "packing-webgl",
                     liveLink: true,
