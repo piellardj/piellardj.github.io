@@ -21,7 +21,7 @@ const data = {
                     background_light_highdpi: "images/projects/flowers-webgl_1024.webp",
                     title: "Flowers",
                     body: [
-                        "This is a naive project painting a flower field. Over time, each flower loses its petals to the wind and eventually dies, only to be replaced by a new one.",
+                        "This project paints a flower field in a naive style. Over time, each flower loses its petals to the wind and eventually dies, only to be replaced by a new one.",
                         "The stems are modelized as weightless ropes and animated with Verlet integration."
                     ],
                     projectName: "flowers-webgl",
