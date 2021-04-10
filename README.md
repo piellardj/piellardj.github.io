@@ -5,8 +5,8 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
-### Flowers: [live](https://piellardj.github.io/flowers/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/flowers)
-![Screenshot for Flowers](images/projects/flowers_512.jpg)
+### Flowers: [live](https://piellardj.github.io/flowers-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/flowers-webgl)
+![Screenshot for Flowers](images/projects/flowers-webgl_512.jpg)
 
 ### Ray marching: [live](https://piellardj.github.io/ray-marching-webgl) / [repo](https://github.com/piellardj/ray-marching-webgl)
 ![Screenshot for Ray marching](images/projects/ray-marching-webgl_512.jpg)
