@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Diamond: [live](https://piellardj.github.io/diamond-webgl) / [repo](https://github.com/piellardj/diamond-webgl)
+![Screenshot for Diamond](images/projects/diamond-webgl_512.jpg)
+
 ### Flowers: [live](https://piellardj.github.io/flowers-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/flowers-webgl)
 ![Screenshot for Flowers](images/projects/flowers-webgl_512.jpg)
 

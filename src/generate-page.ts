@@ -16,6 +16,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/diamond-webgl_512.jpg",
+                    background_light: "images/projects/diamond-webgl_512.webp",
+                    background_light_highdpi: "images/projects/diamond-webgl_1024.webp",
+                    title: "Diamond",
+                    body: [
+                        "This is a real-time rendering engine for diamonds and gemstones. It allows precise control of the cut, and customization of various optical properties to simulate countless types of materials.",
+                        "The engine runs fully on GPU and uses ray-tracing, as well as post-processing techniques such as bloom and screen-space antialiasing."
+                    ],
+                    projectName: "diamond-webgl",
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/flowers-webgl_512.jpg",
                     background_light: "images/projects/flowers-webgl_512.webp",
                     background_light_highdpi: "images/projects/flowers-webgl_1024.webp",
