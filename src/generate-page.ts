@@ -103,54 +103,6 @@ const data = {
                     liveLink: true,
                 },
                 {
-                    background: "images/projects/image-stylization-reaction-diffusion_512.png",
-                    background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
-                    title: "Reaction-diffusion",
-                    body: [
-                        "Reaction-diffusion is a system for simple chemical reactions. This project is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
-                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This can be used transform images, creating a nice effect."
-                    ],
-                    projectName: "reaction-diffusion-webgl",
-                    liveLink: true,
-                },
-                {
-                    background: "images/projects/image-stylization-threading_512.png",
-                    background_light: "images/projects/image-stylization-threading_512.png",
-                    background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
-                    title: "Threading",
-                    body: [
-                        "This tool generates string art from any picture of your choice. A single-color thread is repeatedly ran from border to border in a straight line. The stacked segments progressively recreate the original image.",
-                        "This process was popularized by Petros Vrellis."
-                    ],
-                    projectName: "image-stylization-threading",
-                    liveLink: true,
-                },
-                {
-                    background: "images/projects/dithering_512.png",
-                    background_light: "images/projects/dithering_512.png",
-                    background_light_highdpi: "images/projects/dithering_1024.png",
-                    title: "Dithering",
-                    body: [
-                        "This is a simple tool to turn images into a series of lines of varying lengths.",
-                        "The result can be exported in the SVG format."
-                    ],
-                    projectName: "image-stylization-sines",
-                    liveLink: true,
-                    liveLinkArguments: "page%3Atabs%3Apattern-tabs-id=1&page%3Arange%3Alines-count-range-id=70&page%3Arange%3Amax-frequency-range-id=0.18&page%3Atabs%3Alines-type-tabs-id=1&page%3Arange%3Amax-amplitude-range-id=0.5"
-                },
-                {
-                    background: "images/projects/image-stylization-sines_512.png",
-                    background_light: "images/projects/image-stylization-sines_512.png",
-                    background_light_highdpi: "images/projects/image-stylization-sines_1024.webp",
-                    title: "Sine waves",
-                    body: [
-                        "This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.",
-                        "The result can be exported in the SVG format."
-                    ],
-                    projectName: "image-stylization-sines",
-                    liveLink: true,
-                },
-                {
                     background: "images/projects/picasso-fourier_512.png",
                     background_light: "images/projects/picasso-fourier_512.webp",
                     background_light_highdpi: "images/projects/picasso-fourier_1024.webp",
@@ -255,6 +207,59 @@ const data = {
                     projectName: "ldap-filter-analyzer",
                     liveLink: true,
                 }
+            ]
+        },
+        {
+            title: "Cats",
+            cards: [
+                {
+                    background: "images/projects/image-stylization-reaction-diffusion_512.png",
+                    background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
+                    title: "Reaction-diffusion",
+                    body: [
+                        "Reaction-diffusion is a system for simple chemical reactions. This project is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
+                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This can be used transform images, creating a nice effect."
+                    ],
+                    projectName: "reaction-diffusion-webgl",
+                    liveLink: true,
+                },
+                {
+                    background: "images/projects/image-stylization-threading_512.png",
+                    background_light: "images/projects/image-stylization-threading_512.png",
+                    background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
+                    title: "Threading",
+                    body: [
+                        "This tool generates string art from any picture of your choice. A single-color thread is repeatedly ran from border to border in a straight line. The stacked segments progressively recreate the original image.",
+                        "This process was popularized by Petros Vrellis."
+                    ],
+                    projectName: "image-stylization-threading",
+                    liveLink: true,
+                },
+                {
+                    background: "images/projects/dithering_512.png",
+                    background_light: "images/projects/dithering_512.png",
+                    background_light_highdpi: "images/projects/dithering_1024.png",
+                    title: "Dithering",
+                    body: [
+                        "This is a simple tool to turn images into a series of lines of varying lengths.",
+                        "The result can be exported in the SVG format."
+                    ],
+                    projectName: "image-stylization-sines",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Atabs%3Apattern-tabs-id=1&page%3Arange%3Alines-count-range-id=70&page%3Arange%3Amax-frequency-range-id=0.18&page%3Atabs%3Alines-type-tabs-id=1&page%3Arange%3Amax-amplitude-range-id=0.5"
+                },
+                {
+                    background: "images/projects/image-stylization-sines_512.png",
+                    background_light: "images/projects/image-stylization-sines_512.png",
+                    background_light_highdpi: "images/projects/image-stylization-sines_1024.webp",
+                    title: "Sine waves",
+                    body: [
+                        "This is a simple tool to turn images into a series of sine waves of varying frequency and amplitude.",
+                        "The result can be exported in the SVG format."
+                    ],
+                    projectName: "image-stylization-sines",
+                    liveLink: true,
+                },
             ]
         },
         {

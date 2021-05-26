@@ -26,18 +26,6 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 ### Strange Attractors: [live](https://piellardj.github.io/strange-attractors-webgl) / [repo](https://github.com/piellardj/strange-attractors-webgl)
 ![Screenshot for Strange Attractors](images/projects/strange-attractors_512.png)
 
-### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
-![Screenshot for Reaction-diffusion](images/projects/image-stylization-reaction-diffusion_512.png)
-
-### Threading: [live](https://piellardj.github.io/image-stylization-threading) / [repo](https://github.com/piellardj/image-stylization-threading)
-![Screenshot for Threading](images/projects/image-stylization-threading_512.png)
-
-### Dithering: [live](https://piellardj.github.io/image-stylization-sines/?page%3Atabs%3Apattern-tabs-id=1&page%3Arange%3Alines-count-range-id=70&page%3Arange%3Amax-frequency-range-id=0.18&page%3Atabs%3Alines-type-tabs-id=1&page%3Arange%3Amax-amplitude-range-id=0.5) / [repo](https://github.com/piellardj/image-stylization-sines)
-![Screenshot for Dithering](images/projects/dithering_512.png)
-
-### Sine waves: [live](https://piellardj.github.io/image-stylization-sines) / [repo](https://github.com/piellardj/image-stylization-sines)
-![Screenshot for Sine waves](images/projects/image-stylization-sines_512.png)
-
 ### Picasso - Fourier: [live](https://piellardj.github.io/picasso-fourier) / [repo](https://github.com/piellardj/picasso-fourier)
 ![Screenshot for Picasso - Fourier](images/projects/picasso-fourier_512.png)
 
@@ -64,6 +52,19 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ### LDAP filter analyzer: [live](https://piellardj.github.io/ldap-filter-analyzer) / [repo](https://github.com/piellardj/ldap-filter-analyzer)
 ![Screenshot for LDAP filter analyzer](images/projects/ldap-filter-analyzer_512.png)
+## Projects: Cats
+
+### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
+![Screenshot for Reaction-diffusion](images/projects/image-stylization-reaction-diffusion_512.png)
+
+### Threading: [live](https://piellardj.github.io/image-stylization-threading) / [repo](https://github.com/piellardj/image-stylization-threading)
+![Screenshot for Threading](images/projects/image-stylization-threading_512.png)
+
+### Dithering: [live](https://piellardj.github.io/image-stylization-sines/?page%3Atabs%3Apattern-tabs-id=1&page%3Arange%3Alines-count-range-id=70&page%3Arange%3Amax-frequency-range-id=0.18&page%3Atabs%3Alines-type-tabs-id=1&page%3Arange%3Amax-amplitude-range-id=0.5) / [repo](https://github.com/piellardj/image-stylization-sines)
+![Screenshot for Dithering](images/projects/dithering_512.png)
+
+### Sine waves: [live](https://piellardj.github.io/image-stylization-sines) / [repo](https://github.com/piellardj/image-stylization-sines)
+![Screenshot for Sine waves](images/projects/image-stylization-sines_512.png)
 ## Projects: OpenGL / other
 
 ### Voxelizer: [repo](https://github.com/piellardj/voxelizer-gpu)
