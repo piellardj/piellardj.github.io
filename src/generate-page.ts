@@ -16,6 +16,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/reaction-diffusion-webgl_512.jpg",
+                    background_light_highdpi: "images/projects/reaction-diffusion-webgl_1024.webp",
+                    title: "Reaction-diffusion",
+                    body: [
+                        "Reaction-diffusion is a system for simple chemical reactions. This project is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
+                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This can also be used transform images with a nice effect."
+                    ],
+                    projectName: "reaction-diffusion-webgl",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Atabs%3Amap-tabs-id=uniform&page%3Apicker%3Apresets-fixed-picker-id=0"
+                },
+                {
                     background: "images/projects/diamond-webgl_512.jpg",
                     background_light: "images/projects/diamond-webgl_512.webp",
                     background_light_highdpi: "images/projects/diamond-webgl_1024.webp",
@@ -88,6 +100,17 @@ const data = {
                         "Strange attractors are complex mathematical figures representing the path traced by a point iteratively moved following strict rules. Strange attractors often exhibit beautiful fractal patterns."
                     ],
                     projectName: "strange-attractors-webgl",
+                    liveLink: true,
+                },
+                {
+                    background: "images/projects/image-stylization-reaction-diffusion_512.png",
+                    background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
+                    title: "Reaction-diffusion",
+                    body: [
+                        "Reaction-diffusion is a system for simple chemical reactions. This project is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
+                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This can be used transform images, creating a nice effect."
+                    ],
+                    projectName: "reaction-diffusion-webgl",
                     liveLink: true,
                 },
                 {

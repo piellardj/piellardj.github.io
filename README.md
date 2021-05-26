@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl/?page%3Atabs%3Amap-tabs-id=uniform&page%3Apicker%3Apresets-fixed-picker-id=0) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
+![Screenshot for Reaction-diffusion](images/projects/reaction-diffusion-webgl_512.jpg)
+
 ### Diamond: [live](https://piellardj.github.io/diamond-webgl) / [repo](https://github.com/piellardj/diamond-webgl)
 ![Screenshot for Diamond](images/projects/diamond-webgl_512.jpg)
 
@@ -22,6 +25,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ### Strange Attractors: [live](https://piellardj.github.io/strange-attractors-webgl) / [repo](https://github.com/piellardj/strange-attractors-webgl)
 ![Screenshot for Strange Attractors](images/projects/strange-attractors_512.png)
+
+### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
+![Screenshot for Reaction-diffusion](images/projects/image-stylization-reaction-diffusion_512.png)
 
 ### Threading: [live](https://piellardj.github.io/image-stylization-threading) / [repo](https://github.com/piellardj/image-stylization-threading)
 ![Screenshot for Threading](images/projects/image-stylization-threading_512.png)
