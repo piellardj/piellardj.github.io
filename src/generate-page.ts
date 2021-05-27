@@ -20,12 +20,12 @@ const data = {
                     background_light_highdpi: "images/projects/reaction-diffusion-webgl_1024.webp",
                     title: "Reaction-diffusion",
                     body: [
-                        "Reaction-diffusion is a system for simple chemical reactions. This project is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
-                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This can also be used transform images with a nice effect."
+                        "Reaction-diffusion is a system describing simple chemical reactions. This is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
+                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This project can also be used transform images with a nice effect."
                     ],
                     projectName: "reaction-diffusion-webgl",
                     liveLink: true,
-                    liveLinkArguments: "page%3Atabs%3Amap-tabs-id=uniform&page%3Apicker%3Apresets-fixed-picker-id=0"
+                    liveLinkArguments: "page%3Atabs%3Amap-tabs-id=uniform&page%3Aselect%3Apresets-fixed-select-id=0"
                 },
                 {
                     background: "images/projects/diamond-webgl_512.jpg",
@@ -217,8 +217,8 @@ const data = {
                     background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
                     title: "Reaction-diffusion",
                     body: [
-                        "Reaction-diffusion is a system for simple chemical reactions. This project is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
-                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This can be used transform images, creating a nice effect."
+                        "Reaction-diffusion is a system describing simple chemical reactions. This is a WebGL implementation of the Gray Scott model, running in real time on GPU.",
+                        "The results exhibit very natural-looking patterns, similar to corals or animal coats. This project can be used transform images, creating a nice effect."
                     ],
                     projectName: "reaction-diffusion-webgl",
                     liveLink: true,
