@@ -5,7 +5,7 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
-### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl/?page%3Atabs%3Amap-tabs-id=uniform&page%3Apicker%3Apresets-fixed-picker-id=0) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
+### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl/?page%3Atabs%3Amap-tabs-id=uniform&page%3Aselect%3Apresets-fixed-select-id=0) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
 ![Screenshot for Reaction-diffusion](images/projects/reaction-diffusion-webgl_512.jpg)
 
 ### Diamond: [live](https://piellardj.github.io/diamond-webgl) / [repo](https://github.com/piellardj/diamond-webgl)
