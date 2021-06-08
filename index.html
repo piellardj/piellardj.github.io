@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
-    <link rel="stylesheet" type="text/css" href="css/page.css?v=2021-05-27T21%3A52%3A39.068Z">
+    <link rel="stylesheet" type="text/css" href="css/page.css?v=2021-06-08T21%3A42%3A11.946Z">
   </head>
 
   <body>
@@ -41,6 +41,24 @@
       <section class="projects">
         <h1>Web</h1>
         <div class="projects-grid">
+          <div class="projects-grid-cell">
+            <h2 class="card-title">Stereogram</h2>
+            <div class="card-frame">
+              <picture class="card-background card-image">
+                <source class="card-image" srcset="images/projects/stereogram-webgl_512.webp, images/projects/stereogram-webgl_1024.webp 1.1x">
+                <img class="card-image" src="images/projects/stereogram-webgl_512.jpg" alt="Illustration for Stereogram" />
+              </picture>
+              <div class="card-content card-reveal">
+                <div class="card-body">
+                  <p>Autostereograms (aka Magic Eye images) were very popular in the '90s. They look random, but actually contain a detailed 3D scene, which can only be seen by looking at the image a certain way. Such images work by using repeated patterns to trick the brain into seeing depth.</p>
+                  <p>This project can generate such images. It runs on GPU and handles moving scenes.</p>
+                </div>
+                <div class="card-action">
+                  <a class="card-link" href="https://piellardj.github.io/stereogram-webgl/">See live</a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="projects-grid-cell">
             <h2 class="card-title">Reaction-diffusion</h2>
             <div class="card-frame">
@@ -528,7 +546,7 @@
         </a>
       </div>
     </footer>
-    <script src="script/page.min.js?v=2021-05-27T21%3A52%3A39.068Z"></script>
+    <script src="script/page.min.js?v=2021-06-08T21%3A42%3A11.946Z"></script>
   </body>
 
 </html>

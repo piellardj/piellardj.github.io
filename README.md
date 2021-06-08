@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Stereogram: [live](https://piellardj.github.io/stereogram-webgl) / [repo](https://github.com/piellardj/stereogram-webgl)
+![Screenshot for Stereogram](images/projects/stereogram-webgl_512.jpg)
+
 ### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl/?page%3Atabs%3Amap-tabs-id=uniform&page%3Aselect%3Apresets-fixed-select-id=0) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
 ![Screenshot for Reaction-diffusion](images/projects/reaction-diffusion-webgl_512.jpg)
 

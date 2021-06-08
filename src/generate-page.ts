@@ -16,6 +16,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/stereogram-webgl_512.jpg",
+                    background_light: "images/projects/stereogram-webgl_512.webp",
+                    background_light_highdpi: "images/projects/stereogram-webgl_1024.webp",
+                    title: "Stereogram",
+                    body: [
+                        "Autostereograms (aka Magic Eye images) were very popular in the '90s. They look random, but actually contain a detailed 3D scene, which can only be seen by looking at the image a certain way. Such images work by using repeated patterns to trick the brain into seeing depth.",
+                        "This project can generate such images. It runs on GPU and handles moving scenes."
+                    ],
+                    projectName: "stereogram-webgl",
+                    liveLink: true
+                },
+                {
                     background: "images/projects/reaction-diffusion-webgl_512.jpg",
                     background_light_highdpi: "images/projects/reaction-diffusion-webgl_1024.webp",
                     title: "Reaction-diffusion",
