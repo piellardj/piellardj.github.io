@@ -16,6 +16,19 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/tessellation-webgl_512.jpg",
+                    background_light: "images/projects/tessellation-webgl_512.webp",
+                    background_light_highdpi: "images/projects/tessellation-webgl_1024.webp",
+                    title: "Tessellation",
+                    body: [
+                        "Tessellation is the process of partitioning space into a set of smaller polygons.",
+                        "This WebGL project aims at creating colorful art by using iterative tessellation. Each scene is completely random and supports infinite zooming. You can explore anywhere you like by using the left mouse button."
+                    ],
+                    projectName: "tessellation-webgl",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true"
+                },
+                {
                     background: "images/projects/stereogram-webgl_512.jpg",
                     background_light: "images/projects/stereogram-webgl_512.webp",
                     background_light_highdpi: "images/projects/stereogram-webgl_1024.webp",

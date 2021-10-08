@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Tessellation: [live](https://piellardj.github.io/tessellation-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/tessellation-webgl)
+![Screenshot for Tessellation](images/projects/tessellation-webgl_512.jpg)
+
 ### Stereogram: [live](https://piellardj.github.io/stereogram-webgl) / [repo](https://github.com/piellardj/stereogram-webgl)
 ![Screenshot for Stereogram](images/projects/stereogram-webgl_512.jpg)
 
