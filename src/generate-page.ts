@@ -16,6 +16,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/particles-webgpu_512.jpg",
+                    background_light: "images/projects/particles-webgpu_1024.jpg",
+                    title: "Particles (WebGPU)",
+                    body: [
+                        "This is a basic particles simulation running fully on GPU, using the new WebGPU API.",
+                        "Particles evolve independently, following simple gravitational rules. There can be several attraction points at once. You can control one with your mouse by pressing the left mouse button.",
+                    ],
+                    projectName: "particles-webgpu",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true&page%3Arange%3Aparticles-count-range-id=3"
+                },
+                {
                     background: "images/projects/tessellation-webgl_512.jpg",
                     background_light: "images/projects/tessellation-webgl_512.webp",
                     background_light_highdpi: "images/projects/tessellation-webgl_1024.webp",

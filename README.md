@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Particles (WebGPU): [live](https://piellardj.github.io/particles-webgpu/?page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true&page%3Arange%3Aparticles-count-range-id=3) / [repo](https://github.com/piellardj/particles-webgpu)
+![Screenshot for Particles (WebGPU)](images/projects/particles-webgpu_512.jpg)
+
 ### Tessellation: [live](https://piellardj.github.io/tessellation-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/tessellation-webgl)
 ![Screenshot for Tessellation](images/projects/tessellation-webgl_512.jpg)
 
