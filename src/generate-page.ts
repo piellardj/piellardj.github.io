@@ -20,7 +20,8 @@ const data = {
             cards: [
                 {
                     background: "images/projects/particles-webgpu_512.jpg",
-                    background_light: "images/projects/particles-webgpu_1024.jpg",
+                    background_light: "images/projects/particles-webgpu_512.jpg",
+                    background_light_highdpi: "images/projects/particles-webgpu_1024.jpg",
                     title: "Particles (WebGPU)",
                     body: [
                         "This is a basic particles simulation running fully on GPU, using the new WebGPU API.",
@@ -57,6 +58,7 @@ const data = {
                 },
                 {
                     background: "images/projects/reaction-diffusion-webgl_512.jpg",
+                    background_light: "images/projects/reaction-diffusion-webgl_512.jpg",
                     background_light_highdpi: "images/projects/reaction-diffusion-webgl_1024.webp",
                     title: "Reaction-diffusion",
                     body: [
@@ -254,6 +256,7 @@ const data = {
             cards: [
                 {
                     background: "images/projects/image-stylization-reaction-diffusion_512.png",
+                    background_light: "images/projects/image-stylization-reaction-diffusion_512.png",
                     background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
                     title: "Reaction-diffusion",
                     body: [
@@ -265,7 +268,7 @@ const data = {
                 },
                 {
                     background: "images/projects/image-stylization-threading_512.png",
-                    background_light: "images/projects/image-stylization-threading_512.png",
+                    background_light: "images/projects/image-stylization-threading_512.webp",
                     background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
                     title: "Threading",
                     body: [
