@@ -368,7 +368,7 @@ async function computeBlurredBackgrounds(): Promise<void> {
             const fullBackground = card.background;
 
             const tmpPath = fullBackground + "_tmp.png";
-            const downsizedImage = sharp(fullBackground).resize(16, 8).png({ compressionLevel: 9, colors: 32 });
+            const downsizedImage = sharp(fullBackground).resize(16, 8).blur(1.25).png({ compressionLevel: 9 });
             await downsizedImage.toFile(tmpPath);
             const bitmap = fs.readFileSync(tmpPath);
             fs.unlinkSync(tmpPath);
