@@ -13,11 +13,13 @@
   },
   "author": "Jérémie PIELLARD",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^16.11.7",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/sharp": "^0.29.4",
+    "sharp": "^0.29.3",
     "shx": "^0.3.3",
     "ts-node": "^10.4.0",
-    "typescript": "^4.4.4",
+    "typescript": "^4.5.2",
     "webpage-templates": "github:piellardj/webpage-templates"
   }
 }

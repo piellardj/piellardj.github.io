@@ -1,4 +1,7 @@
+import * as fs from "fs";
+import sharp from "sharp";
 import { Homepage } from "webpage-templates";
+import { IHomepageData } from "webpage-templates/build/script/homepage/i-homepage-data";
 import * as Readme from "./readme";
 
 if (process.argv.length !== 3) {
@@ -359,5 +362,27 @@ const data = {
     ],
 }
 
-Homepage.build(data, destinationDir);
-Readme.generate(data);
+async function computeBlurredBackgrounds(): Promise<void> {
+    for (const section of data.sections) {
+        for (const card of section.cards) {
+            const fullBackground = card.background;
+
+            const tmpPath = fullBackground + "_tmp.png";
+            const downsizedImage = sharp(fullBackground).resize(16, 8).png({ compressionLevel: 9, colors: 32 });
+            await downsizedImage.toFile(tmpPath);
+            const bitmap = fs.readFileSync(tmpPath);
+            fs.unlinkSync(tmpPath);
+
+            (card as any).background_blurred = "data:image/png;base64," + bitmap.toString("base64");
+        }
+    }
+}
+
+async function start(): Promise<void> {
+    await computeBlurredBackgrounds();
+
+    Homepage.build(data as IHomepageData, destinationDir);
+    Readme.generate(data);
+}
+
+start();
