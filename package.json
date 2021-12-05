@@ -1,10 +1,11 @@
 {
   "name": "piellardj.github.io",
-  "description": "Homepage",
-  "private": true,
   "homepage": "https://piellardj.github.io",
+  "description": "Homepage",
+  "author": "Jérémie PIELLARD <jeremie.piellard@gmail.com> (https://github.com/piellardj)",
   "repository": "github:piellardj/piellardj.github.io",
-  "main": "src/generate-page.ts",
+  "private": true,
+  "license": "ISC",
   "scripts": {
     "pre-commit": "npm run rebuild",
     "generate-page": "ts-node-script src/generate-page.ts .",
@@ -12,8 +13,6 @@
     "rebuild": "npm run clean && npm run build",
     "clean": "shx rm -rf css images/*.* script favicon-* *.html"
   },
-  "author": "Jérémie PIELLARD",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.11",
     "@types/sharp": "^0.29.4",
