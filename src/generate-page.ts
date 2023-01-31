@@ -1,7 +1,4 @@
-import * as fs from "fs";
-import sharp from "sharp";
 import { Homepage } from "webpage-templates";
-import { IHomepageData } from "webpage-templates/build/script/homepage/i-homepage-data";
 import * as Readme from "./readme";
 
 if (process.argv.length !== 3) {
@@ -18,19 +15,6 @@ const data = {
         {
             title: "Web",
             cards: [
-                {
-                    background: "images/projects/particles-webgpu_512.jpg",
-                    background_light: "images/projects/particles-webgpu_512.jpg",
-                    background_light_highdpi: "images/projects/particles-webgpu_1024.jpg",
-                    title: "Particles (WebGPU)",
-                    body: [
-                        "This is a basic particles simulation running fully on GPU, using the new WebGPU API.",
-                        "Particles evolve independently, following simple gravitational rules. There can be several attraction points at once. You can control one with your mouse by pressing the left mouse button.",
-                    ],
-                    projectName: "particles-webgpu",
-                    liveLink: true,
-                    liveLinkArguments: "page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true&page%3Arange%3Aparticles-count-range-id=3"
-                },
                 {
                     background: "images/projects/tessellation-webgl_512.jpg",
                     background_light: "images/projects/tessellation-webgl_512.webp",
@@ -58,7 +42,6 @@ const data = {
                 },
                 {
                     background: "images/projects/reaction-diffusion-webgl_512.jpg",
-                    background_light: "images/projects/reaction-diffusion-webgl_512.jpg",
                     background_light_highdpi: "images/projects/reaction-diffusion-webgl_1024.webp",
                     title: "Reaction-diffusion",
                     body: [
@@ -248,6 +231,18 @@ const data = {
                     ],
                     projectName: "ldap-filter-analyzer",
                     liveLink: true,
+                },
+                {
+                    background: "images/projects/i18n_512.png",
+                    background_light: "images/projects/i18n_512.webp",
+                    background_light_highdpi: "images/projects/i18n_1024.webp",
+                    title: "i18n",
+                    body: [
+                        "This is a silly tool to translate to and from numeronyms such as \"i18n\" (which stands for \"internationalization\").  The reverse translation illustrates how confusing such abbreviations can be.",
+                        "Only keep the first and last letters, and add the count of inner letters. Makes communication easier. M3s c11n e4r."
+                    ],
+                    projectName: "i18n",
+                    liveLink: true,
                 }
             ]
         },
@@ -256,7 +251,6 @@ const data = {
             cards: [
                 {
                     background: "images/projects/image-stylization-reaction-diffusion_512.png",
-                    background_light: "images/projects/image-stylization-reaction-diffusion_512.png",
                     background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
                     title: "Reaction-diffusion",
                     body: [
@@ -268,7 +262,7 @@ const data = {
                 },
                 {
                     background: "images/projects/image-stylization-threading_512.png",
-                    background_light: "images/projects/image-stylization-threading_512.webp",
+                    background_light: "images/projects/image-stylization-threading_512.png",
                     background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
                     title: "Threading",
                     body: [
@@ -365,27 +359,5 @@ const data = {
     ],
 }
 
-async function computeBlurredBackgrounds(): Promise<void> {
-    for (const section of data.sections) {
-        for (const card of section.cards) {
-            const fullBackground = card.background;
-
-            const tmpPath = fullBackground + "_tmp.png";
-            const downsizedImage = sharp(fullBackground).resize(16, 8).blur(1.25).png({ compressionLevel: 9 });
-            await downsizedImage.toFile(tmpPath);
-            const bitmap = fs.readFileSync(tmpPath);
-            fs.unlinkSync(tmpPath);
-
-            (card as any).background_blurred = "data:image/png;base64," + bitmap.toString("base64");
-        }
-    }
-}
-
-async function start(): Promise<void> {
-    await computeBlurredBackgrounds();
-
-    Homepage.build(data as IHomepageData, destinationDir);
-    Readme.generate(data);
-}
-
-start();
+Homepage.build(data, destinationDir);
+Readme.generate(data);

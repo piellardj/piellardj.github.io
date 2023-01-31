@@ -5,9 +5,6 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
-### Particles (WebGPU): [live](https://piellardj.github.io/particles-webgpu/?page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true&page%3Arange%3Aparticles-count-range-id=3) / [repo](https://github.com/piellardj/particles-webgpu)
-![Screenshot for Particles (WebGPU)](images/projects/particles-webgpu_512.jpg)
-
 ### Tessellation: [live](https://piellardj.github.io/tessellation-webgl/?page%3Acanvas%3Afullscreen=true) / [repo](https://github.com/piellardj/tessellation-webgl)
 ![Screenshot for Tessellation](images/projects/tessellation-webgl_512.jpg)
 
@@ -61,6 +58,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ### LDAP filter analyzer: [live](https://piellardj.github.io/ldap-filter-analyzer) / [repo](https://github.com/piellardj/ldap-filter-analyzer)
 ![Screenshot for LDAP filter analyzer](images/projects/ldap-filter-analyzer_512.png)
+
+### i18n: [live](https://piellardj.github.io/i18n) / [repo](https://github.com/piellardj/i18n)
+![Screenshot for i18n](images/projects/i18n_512.png)
 ## Projects: Cats
 
 ### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
