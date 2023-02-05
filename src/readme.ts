@@ -37,7 +37,12 @@ function buildLinks(description: IReadmeProject): string {
     }
 
     {
-        const repoLink = `https://github.com/piellardj/${description.projectName}`;
+        let repoName = description.projectName;
+        const indexOfFirstSlash = repoName.indexOf("/");
+        if (indexOfFirstSlash > 0) {
+            repoName = repoName.substring(0, indexOfFirstSlash);
+        }
+        const repoLink = `https://github.com/piellardj/${repoName}`;
         links.push(`[repo](${repoLink})`);
     }
 
