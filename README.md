@@ -14,6 +14,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 ### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl/?page%3Atabs%3Amap-tabs-id=uniform&page%3Aselect%3Apresets-fixed-select-id=0) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
 ![Screenshot for Reaction-diffusion](images/projects/reaction-diffusion-webgl_512.jpg)
 
+### Jewelry: [live](https://piellardj.github.io/diamond-webgl/jewelry/?page%3Atabs%3Asupport-type-tabs-id=gold&page%3Arange%3Adispersion-range-id=0&page%3Acolor-picker%3Aminor-gem-color-colorpicker-id=%23E33737&page%3Acheckbox%3Adisplay-indicators-checkbox-id=false) / [repo](https://github.com/piellardj/diamond-webgl/jewelry)
+![Screenshot for Jewelry](images/projects/jewelry_512.jpg)
+
 ### Diamond: [live](https://piellardj.github.io/diamond-webgl) / [repo](https://github.com/piellardj/diamond-webgl)
 ![Screenshot for Diamond](images/projects/diamond-webgl_512.jpg)
 

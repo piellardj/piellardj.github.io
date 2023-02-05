@@ -53,6 +53,19 @@ const data = {
                     liveLinkArguments: "page%3Atabs%3Amap-tabs-id=uniform&page%3Aselect%3Apresets-fixed-select-id=0"
                 },
                 {
+                    background: "images/projects/jewelry_512.jpg",
+                    background_light: "images/projects/jewelry_512.webp",
+                    background_light_highdpi: "images/projects/jewelry_1024.webp",
+                    title: "Jewelry",
+                    body: [
+                        "This is a real-time rendering engine for jewelry and gemstones. It can render many gemstones simultaneously and supports precise customization of various optical properties.",
+                        "The engine runs fully on GPU and uses ray-tracing, as well as post-processing techniques such as bloom and screen-space antialiasing."
+                    ],
+                    projectName: "diamond-webgl/jewelry",
+                    liveLink: true,
+                    liveLinkArguments: "page%3Atabs%3Asupport-type-tabs-id=gold&page%3Arange%3Adispersion-range-id=0&page%3Acolor-picker%3Aminor-gem-color-colorpicker-id=%23E33737&page%3Acheckbox%3Adisplay-indicators-checkbox-id=false"
+                },
+                {
                     background: "images/projects/diamond-webgl_512.jpg",
                     background_light: "images/projects/diamond-webgl_512.webp",
                     background_light_highdpi: "images/projects/diamond-webgl_1024.webp",
