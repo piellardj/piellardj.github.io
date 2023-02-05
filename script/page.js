@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 var Page;
 (function (Page) {
     var Homepage;
@@ -20,9 +19,13 @@ var Page;
         function shuffleList(list) {
             function swap(index1, index2) {
                 if (index1 !== index2) {
-                    var tmp = list[index1];
-                    list[index1] = list[index2];
-                    list[index2] = tmp;
+                    var list1 = list[index1];
+                    var list2 = list[index2];
+                    if (typeof list1 === "undefined" || typeof list2 === "undefined") {
+                        throw new Error("Out of bound indices: ".concat(index1, " and ").concat(index2, "."));
+                    }
+                    list[index1] = list2;
+                    list[index2] = list1;
                 }
             }
             for (var currentIndex = list.length - 1; currentIndex > 0; --currentIndex) {
@@ -37,13 +40,13 @@ var Page;
             /**
              * Updates the logo's href with an url from the shuffled list.
              */
-            function randomizeLogoHref() {
+            var randomizeLogoHref = function () {
                 if (nextIndex_1 === 0) {
                     shuffleList(projectsUrls_1);
                 }
                 logo.href = projectsUrls_1[nextIndex_1];
                 nextIndex_1 = (nextIndex_1 + 1) % projectsUrls_1.length;
-            }
+            };
             logo.classList.add("dynamic-logo");
             logo.href = "#"; // default value if no projects on the page
             logo.onclick = randomizeLogoHref;
@@ -52,4 +55,5 @@ var Page;
         }
     })(Homepage = Page.Homepage || (Page.Homepage = {}));
 })(Page || (Page = {}));
+
 
