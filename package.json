@@ -13,9 +13,6 @@
     "rebuild": "npm run clean && npm run build",
     "clean": "shx rm -rf css images/*.* script favicon-* *.html"
   },
-  "engine": {
-    "node": ">=18"
-  },
   "devDependencies": {
     "@types/node": "^18.11.19",
     "@types/sharp": "^0.31.1",
