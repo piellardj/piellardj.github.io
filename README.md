@@ -5,6 +5,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Non-circular gears: [live](https://piellardj.github.io/non-circular-gears) / [repo](https://github.com/piellardj/non-circular-gears)
+![Screenshot for Non-circular gears](images/projects/non-circular-gears_512.png)
+
 ### Particles (WebGPU): [live](https://piellardj.github.io/particles-webgpu/?page%3Acanvas%3Afullscreen=true&page%3Acanvas%3Asidepane=true&page%3Arange%3Aparticles-count-range-id=3) / [repo](https://github.com/piellardj/particles-webgpu)
 ![Screenshot for Particles (WebGPU)](images/projects/particles-webgpu_512.jpg)
 

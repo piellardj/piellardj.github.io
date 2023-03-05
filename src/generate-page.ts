@@ -19,6 +19,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/non-circular-gears_512.png",
+                    background_light: "images/projects/non-circular-gears_512.png",
+                    background_light_highdpi: "images/projects/non-circular-gears_1024.png",
+                    title: "Non-circular gears",
+                    body: [
+                        "Gears are not always round. Non-circular gears were first sketched by Leonardo da Vinci. Such gears are designed to convert rotational speed in a nonconstant manner. They also look cool.",
+                        "This project is a non-circular gear system generator: the central gear has an unusual shape, and all the other gears are built to accomodate it.",
+                    ],
+                    projectName: "non-circular-gears",
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/particles-webgpu_512.jpg",
                     background_light: "images/projects/particles-webgpu_512.jpg",
                     background_light_highdpi: "images/projects/particles-webgpu_1024.jpg",
