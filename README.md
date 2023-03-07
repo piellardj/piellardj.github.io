@@ -64,15 +64,6 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ### Paint: [live](https://piellardj.github.io/paint-webgl) / [repo](https://github.com/piellardj/paint-webgl)
 ![Screenshot for Paint](images/projects/paint_512.png)
-
-### LDAP filter analyzer: [live](https://piellardj.github.io/ldap-filter-analyzer) / [repo](https://github.com/piellardj/ldap-filter-analyzer)
-![Screenshot for LDAP filter analyzer](images/projects/ldap-filter-analyzer_512.png)
-
-### i18n: [live](https://piellardj.github.io/i18n) / [repo](https://github.com/piellardj/i18n)
-![Screenshot for i18n](images/projects/i18n_512.png)
-
-### F5 persistence cookie: [live](https://piellardj.github.io/f5-persistence-cookie) / [repo](https://github.com/piellardj/f5-persistence-cookie)
-![Screenshot for F5 persistence cookie](images/projects/f5-persistence-cookie_512.png)
 ## Projects: Cats
 
 ### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
@@ -86,6 +77,16 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ### Sine waves: [live](https://piellardj.github.io/image-stylization-sines) / [repo](https://github.com/piellardj/image-stylization-sines)
 ![Screenshot for Sine waves](images/projects/image-stylization-sines_512.png)
+## Projects: Tools
+
+### LDAP filter analyzer: [live](https://piellardj.github.io/ldap-filter-analyzer) / [repo](https://github.com/piellardj/ldap-filter-analyzer)
+![Screenshot for LDAP filter analyzer](images/projects/ldap-filter-analyzer_512.png)
+
+### i18n: [live](https://piellardj.github.io/i18n) / [repo](https://github.com/piellardj/i18n)
+![Screenshot for i18n](images/projects/i18n_512.png)
+
+### F5 persistence cookie: [live](https://piellardj.github.io/f5-persistence-cookie) / [repo](https://github.com/piellardj/f5-persistence-cookie)
+![Screenshot for F5 persistence cookie](images/projects/f5-persistence-cookie_512.png)
 ## Projects: OpenGL / other
 
 ### Voxelizer: [repo](https://github.com/piellardj/voxelizer-gpu)

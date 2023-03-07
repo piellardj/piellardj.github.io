@@ -261,42 +261,6 @@ const data = {
                     projectName: "paint-webgl",
                     liveLink: true,
                 },
-                {
-                    background: "images/projects/ldap-filter-analyzer_512.png",
-                    background_light: "images/projects/ldap-filter-analyzer_512.webp",
-                    background_light_highdpi: "images/projects/ldap-filter-analyzer_1024.webp",
-                    title: "LDAP filter analyzer",
-                    body: [
-                        "This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.",
-                        "The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input."
-                    ],
-                    projectName: "ldap-filter-analyzer",
-                    liveLink: true,
-                },
-                {
-                    background: "images/projects/i18n_512.png",
-                    background_light: "images/projects/i18n_512.webp",
-                    background_light_highdpi: "images/projects/i18n_1024.webp",
-                    title: "i18n",
-                    body: [
-                        "This is a silly tool to translate to and from numeronyms such as \"i18n\" (which stands for \"internationalization\").  The reverse translation illustrates how confusing such abbreviations can be.",
-                        "Only keep the first and last letters, and add the count of inner letters. Makes communication easier. M3s c11n e4r."
-                    ],
-                    projectName: "i18n",
-                    liveLink: true,
-                },
-                {
-                    background: "images/projects/f5-persistence-cookie_512.png",
-                    background_light: "images/projects/f5-persistence-cookie_512.png",
-                    background_light_highdpi: "images/projects/f5-persistence-cookie_1024.png",
-                    title: "F5 persistence cookie",
-                    body: [
-                        "This is a simple tool to decode and craft F5 BIG-IP persistence cookies. They contain the local IP and port of the machine.",
-                        "The structure of these cookies is explained <a href='https://my.f5.com/manage/s/article/K6917'>here</a>."
-                    ],
-                    projectName: "f5-persistence-cookie",
-                    liveLink: true,
-                },
             ]
         },
         {
@@ -348,6 +312,47 @@ const data = {
                         "The result can be exported in the SVG format."
                     ],
                     projectName: "image-stylization-sines",
+                    liveLink: true,
+                },
+            ]
+        },
+        {
+            title: "Tools",
+            cards: [
+                {
+                    background: "images/projects/ldap-filter-analyzer_512.png",
+                    background_light: "images/projects/ldap-filter-analyzer_512.webp",
+                    background_light_highdpi: "images/projects/ldap-filter-analyzer_1024.webp",
+                    title: "LDAP filter analyzer",
+                    body: [
+                        "This project is a simple tool for easily visualizing large LDAP filters. Hovering parts of the analyzed result highlights where they were extracted from.",
+                        "The input string is analyzed by a scannerless parser: it performs lexing and parsing at once. It uses a factory pattern for building nodes in memory as it scans the input."
+                    ],
+                    projectName: "ldap-filter-analyzer",
+                    liveLink: true,
+                },
+                {
+                    background: "images/projects/i18n_512.png",
+                    background_light: "images/projects/i18n_512.webp",
+                    background_light_highdpi: "images/projects/i18n_1024.webp",
+                    title: "i18n",
+                    body: [
+                        "This is a silly tool to translate to and from numeronyms such as \"i18n\" (which stands for \"internationalization\").  The reverse translation illustrates how confusing such abbreviations can be.",
+                        "Only keep the first and last letters, and add the count of inner letters. Makes communication easier. M3s c11n e4r."
+                    ],
+                    projectName: "i18n",
+                    liveLink: true,
+                },
+                {
+                    background: "images/projects/f5-persistence-cookie_512.png",
+                    background_light: "images/projects/f5-persistence-cookie_512.png",
+                    background_light_highdpi: "images/projects/f5-persistence-cookie_1024.png",
+                    title: "F5 persistence cookie",
+                    body: [
+                        "This is a simple tool to decode and craft F5 BIG-IP persistence cookies. They contain the local IP and port of the machine.",
+                        "The structure of these cookies is explained <a href='https://my.f5.com/manage/s/article/K6917'>here</a>."
+                    ],
+                    projectName: "f5-persistence-cookie",
                     liveLink: true,
                 },
             ]
