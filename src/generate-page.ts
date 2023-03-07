@@ -45,7 +45,6 @@ const data = {
                 },
                 {
                     background: "images/projects/tessellation-webgl_512.jpg",
-                    background_blurred: "images/projects/tessellation-webgl_blurred.png",
                     background_light: "images/projects/tessellation-webgl_512.webp",
                     background_light_highdpi: "images/projects/tessellation-webgl_1024.webp",
                     title: "Tessellation",
@@ -59,7 +58,6 @@ const data = {
                 },
                 {
                     background: "images/projects/stereogram-webgl_512.jpg",
-                    background_blurred: "images/projects/stereogram-webgl_blurred.png",
                     background_light: "images/projects/stereogram-webgl_512.webp",
                     background_light_highdpi: "images/projects/stereogram-webgl_1024.webp",
                     title: "Stereogram",
@@ -72,7 +70,6 @@ const data = {
                 },
                 {
                     background: "images/projects/reaction-diffusion-webgl_512.jpg",
-                    background_blurred: "images/projects/reaction-diffusion-webgl_blurred.png",
                     background_light_highdpi: "images/projects/reaction-diffusion-webgl_1024.webp",
                     title: "Reaction-diffusion",
                     body: [
@@ -85,7 +82,6 @@ const data = {
                 },
                 {
                     background: "images/projects/jewelry_512.jpg",
-                    background_blurred: "images/projects/jewelry_blurred.png",
                     background_light: "images/projects/jewelry_512.webp",
                     background_light_highdpi: "images/projects/jewelry_1024.webp",
                     title: "Jewelry",
@@ -99,7 +95,6 @@ const data = {
                 },
                 {
                     background: "images/projects/diamond-webgl_512.jpg",
-                    background_blurred: "images/projects/diamond-webgl_blurred.png",
                     background_light: "images/projects/diamond-webgl_512.webp",
                     background_light_highdpi: "images/projects/diamond-webgl_1024.webp",
                     title: "Diamond",
@@ -112,7 +107,6 @@ const data = {
                 },
                 {
                     background: "images/projects/flowers-webgl_512.jpg",
-                    background_blurred: "images/projects/flowers-webgl_blurred.png",
                     background_light: "images/projects/flowers-webgl_512.webp",
                     background_light_highdpi: "images/projects/flowers-webgl_1024.webp",
                     title: "Flowers",
@@ -126,7 +120,6 @@ const data = {
                 },
                 {
                     background: "images/projects/ray-marching-webgl_512.jpg",
-                    background_blurred: "images/projects/ray-marching-webgl_blurred.png",
                     background_light: "images/projects/ray-marching-webgl_512.webp",
                     background_light_highdpi: "images/projects/ray-marching-webgl_1024.webp",
                     title: "Ray marching",
@@ -139,7 +132,6 @@ const data = {
                 },
                 {
                     background: "images/projects/packing-webgl_512.png",
-                    background_blurred: "images/projects/packing-webgl_blurred.png",
                     background_light: "images/projects/packing-webgl_512.webp",
                     background_light_highdpi: "images/projects/packing-webgl_1024.webp",
                     title: "Packing",
@@ -153,7 +145,6 @@ const data = {
                 },
                 {
                     background: "images/projects/rorschach-webl_512.png",
-                    background_blurred: "images/projects/rorschach-webgl_blurred.png",
                     background_light: "images/projects/rorschach-webl_512.webp",
                     background_light_highdpi: "images/projects/rorschach-webl_1024.webp",
                     title: "Rorschach",
@@ -167,7 +158,6 @@ const data = {
                 },
                 {
                     background: "images/projects/strange-attractors_512.png",
-                    background_blurred: "images/projects/strange-attractors_blurred.png",
                     background_light: "images/projects/strange-attractors_512.webp",
                     background_light_highdpi: "images/projects/strange-attractors_1024.webp",
                     title: "Strange Attractors",
@@ -180,7 +170,6 @@ const data = {
                 },
                 {
                     background: "images/projects/picasso-fourier_512.png",
-                    background_blurred: "images/projects/picasso-fourier_blurred.png",
                     background_light: "images/projects/picasso-fourier_512.webp",
                     background_light_highdpi: "images/projects/picasso-fourier_1024.webp",
                     title: "Picasso - Fourier",
@@ -193,7 +182,6 @@ const data = {
                 },
                 {
                     background: "images/projects/chaos-game_512.png",
-                    background_blurred: "images/projects/chaos-game_blurred.png",
                     background_light: "images/projects/chaos-game_512.jpg",
                     background_light_highdpi: "images/projects/chaos-game_1024.jpg",
                     title: "Chaos Game",
@@ -206,7 +194,6 @@ const data = {
                 },
                 {
                     background: "images/projects/game-of-life-webgl_512.png",
-                    background_blurred: "images/projects/game-of-life-webgl_blurred.png",
                     background_light: "images/projects/game-of-life-webgl_512.webp",
                     background_light_highdpi: "images/projects/game-of-life-webgl_1024.webp",
                     title: "Game of Life",
@@ -219,7 +206,6 @@ const data = {
                 },
                 {
                     background: "images/projects/panoramas_512.jpg",
-                    background_blurred: "images/projects/panoramas_blurred.png",
                     background_light: "images/projects/panoramas_512.webp",
                     background_light_highdpi: "images/projects/panoramas_1024.webp",
                     title: "Panoramas",
@@ -232,7 +218,6 @@ const data = {
                 },
                 {
                     background: "images/projects/pool-webgl_512.png",
-                    background_blurred: "images/projects/pool-webgl_blurred.png",
                     background_light: "images/projects/pool-webgl_512.webp",
                     background_light_highdpi: "images/projects/pool-webgl_1024.webp",
                     title: "Pool",
@@ -246,7 +231,6 @@ const data = {
                 },
                 {
                     background: "images/projects/navier-stokes.jpg",
-                    background_blurred: "images/projects/navier-stokes_blurred.png",
                     title: "Navier-Stokes",
                     body: [
                         "This project is a WebGL incompressible fluid simulation running entirely on your GPU.\nYou can interact with the fluid with the left mouse button and visualize both the velocity and the pressure of the fluid.",
@@ -257,7 +241,6 @@ const data = {
                 },
                 {
                     background: "images/projects/waterfall.jpg",
-                    background_blurred: "images/projects/waterfall_blurred.png",
                     title: "Waterfall",
                     body: [
                         "'Waterfall' is a simple waterfall simulation, based on a particle system.\nThe particles bounce off obstacles, creating water streams and droplets.",
@@ -268,7 +251,6 @@ const data = {
                 },
                 {
                     background: "images/projects/paint_512.png",
-                    background_blurred: "images/projects/paint_blurred.png",
                     background_light: "images/projects/paint_512.webp",
                     background_light_highdpi: "images/projects/paint_1024.webp",
                     title: "Paint",
@@ -281,7 +263,6 @@ const data = {
                 },
                 {
                     background: "images/projects/ldap-filter-analyzer_512.png",
-                    background_blurred: "images/projects/ldap-filter-analyzer_blurred.png",
                     background_light: "images/projects/ldap-filter-analyzer_512.webp",
                     background_light_highdpi: "images/projects/ldap-filter-analyzer_1024.webp",
                     title: "LDAP filter analyzer",
@@ -294,7 +275,6 @@ const data = {
                 },
                 {
                     background: "images/projects/i18n_512.png",
-                    background_blurred: "images/projects/i18n_blurred.png",
                     background_light: "images/projects/i18n_512.webp",
                     background_light_highdpi: "images/projects/i18n_1024.webp",
                     title: "i18n",
@@ -304,7 +284,19 @@ const data = {
                     ],
                     projectName: "i18n",
                     liveLink: true,
-                }
+                },
+                {
+                    background: "images/projects/f5-persistence-cookie_512.png",
+                    background_light: "images/projects/f5-persistence-cookie_512.png",
+                    background_light_highdpi: "images/projects/f5-persistence-cookie_1024.png",
+                    title: "F5 persistence cookie",
+                    body: [
+                        "This is a simple tool to decode and craft F5 BIG-IP persistence cookies. They contain the local IP and port of the machine.",
+                        "The structure of these cookies is explained <a href='https://my.f5.com/manage/s/article/K6917'>here</a>."
+                    ],
+                    projectName: "f5-persistence-cookie",
+                    liveLink: true,
+                },
             ]
         },
         {
@@ -312,7 +304,6 @@ const data = {
             cards: [
                 {
                     background: "images/projects/image-stylization-reaction-diffusion_512.png",
-                    background_blurred: "images/projects/image-stylization-reaction-diffusion_blurred.png",
                     background_light_highdpi: "images/projects/image-stylization-reaction-diffusion_1024.png",
                     title: "Reaction-diffusion",
                     body: [
@@ -324,7 +315,6 @@ const data = {
                 },
                 {
                     background: "images/projects/image-stylization-threading_512.png",
-                    background_blurred: "images/projects/image-stylization-threading_blurred.png",
                     background_light: "images/projects/image-stylization-threading_512.png",
                     background_light_highdpi: "images/projects/image-stylization-threading_1024.webp",
                     title: "Threading",
@@ -337,7 +327,6 @@ const data = {
                 },
                 {
                     background: "images/projects/dithering_512.png",
-                    background_blurred: "images/projects/dithering_blurred.png",
                     background_light: "images/projects/dithering_512.png",
                     background_light_highdpi: "images/projects/dithering_1024.png",
                     title: "Dithering",
@@ -351,7 +340,6 @@ const data = {
                 },
                 {
                     background: "images/projects/image-stylization-sines_512.png",
-                    background_blurred: "images/projects/image-stylization-sines_blurred.png",
                     background_light: "images/projects/image-stylization-sines_512.png",
                     background_light_highdpi: "images/projects/image-stylization-sines_1024.webp",
                     title: "Sine waves",
@@ -369,7 +357,6 @@ const data = {
             cards: [
                 {
                     background: "images/projects/voxelizer_512.png",
-                    background_blurred: "images/projects/voxelizer_blurred.png",
                     background_light: "images/projects/voxelizer_512.webp",
                     background_light_highdpi: "images/projects/voxelizer_1024.webp",
                     title: "Voxelizer",
@@ -382,7 +369,6 @@ const data = {
                 },
                 {
                     background: "images/projects/parallax.jpg",
-                    background_blurred: "images/projects/parallax_blurred.png",
                     title: "Parallax mapping",
                     body: [
                         "'Parallax' is a simple demonstration of parallax mapping, with a comparison to other techniques such as normal mapping."
@@ -392,7 +378,6 @@ const data = {
                 },
                 {
                     background: "images/projects/fractal_512.jpg",
-                    background_blurred: "images/projects/fractal_blurred.png",
                     background_light: "images/projects/fractal_512.webp",
                     background_light_highdpi: "images/projects/fractal_800.webp",
                     title: "Fractal navigator",
@@ -405,7 +390,6 @@ const data = {
                 },
                 {
                     background: "images/projects/particles.jpg",
-                    background_blurred: "images/projects/particles_blurred.png",
                     title: "Particles",
                     body: [
                         "'Particles' is an interactive particle system evolving with the law of gravitation.\nYou can use mouse buttons to either attract or repulse the particles.",
@@ -416,7 +400,6 @@ const data = {
                 },
                 {
                     background: "images/projects/sampler-2D.png",
-                    background_blurred: "images/projects/sampler2D_blurred.png",
                     title: "Sampler 2D",
                     body: [
                         "'Sampler 2D' is a micro-project.\nIt provides a way to efficiently generate random samples from a discrete 2D density function."

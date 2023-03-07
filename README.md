@@ -70,6 +70,9 @@ See the live version here: [piellardj.github.io](https://piellardj.github.io).
 
 ### i18n: [live](https://piellardj.github.io/i18n) / [repo](https://github.com/piellardj/i18n)
 ![Screenshot for i18n](images/projects/i18n_512.png)
+
+### F5 persistence cookie: [live](https://piellardj.github.io/f5-persistence-cookie) / [repo](https://github.com/piellardj/f5-persistence-cookie)
+![Screenshot for F5 persistence cookie](images/projects/f5-persistence-cookie_512.png)
 ## Projects: Cats
 
 ### Reaction-diffusion: [live](https://piellardj.github.io/reaction-diffusion-webgl) / [repo](https://github.com/piellardj/reaction-diffusion-webgl)
