@@ -72,7 +72,7 @@ function buildReadme(data: IReadmeData): string {
         `# Homepage
 
 This repo is a hub giving access to all of my projects.
-See the live version here: [piellardj.github.io](https://piellardj.github.io).
+See it live here: [piellardj.github.io](https://piellardj.github.io).
 `;
 
     const parts: string[] = [introduction];

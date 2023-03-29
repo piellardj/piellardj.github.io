@@ -1,9 +1,12 @@
 # Homepage
 
 This repo is a hub giving access to all of my projects.
-See the live version here: [piellardj.github.io](https://piellardj.github.io).
+See it live here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
+
+### Water (WebGPU): [live](https://piellardj.github.io/water-webgpu) / [repo](https://github.com/piellardj/water-webgpu)
+![Screenshot for Water (WebGPU)](images/projects/water-webgpu_512.jpg)
 
 ### Non-circular gears: [live](https://piellardj.github.io/non-circular-gears) / [repo](https://github.com/piellardj/non-circular-gears)
 ![Screenshot for Non-circular gears](images/projects/non-circular-gears_512.png)

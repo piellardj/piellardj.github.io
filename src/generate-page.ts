@@ -19,6 +19,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/water-webgpu_512.jpg",
+                    background_light: "images/projects/water-webgpu_512.webp",
+                    background_light_highdpi: "images/projects/water-webgpu_1024.webp",
+                    title: "Water (WebGPU)",
+                    body: [
+                        "This is a water simulation modeling water as thousands of small balls colliding with each other. You can interact with it by adding objects such as a cup or a helix. You can also dynamically change the domain constraints.",
+                        "This project runs fully on GPU and can handle up to a million balls. It is implemented with the experimental WebGPU API.",
+                    ],
+                    projectName: "water-webgpu",
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/non-circular-gears_512.png",
                     background_light: "images/projects/non-circular-gears_512.png",
                     background_light_highdpi: "images/projects/non-circular-gears_1024.png",
