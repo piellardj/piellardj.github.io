@@ -3,6 +3,8 @@
 This repo is a hub giving access to all of my projects.
 See it live here: [piellardj.github.io](https://piellardj.github.io).
 
+[![Donate](https://raw.githubusercontent.com/piellardj/piellardj.github.io/master/images/readme/donate-paypal.svg)](https://www.paypal.com/donate/?hosted_button_id=AF7H7GEJTL95E)
+
 ## Projects: Web
 
 ### Water (WebGPU): [live](https://piellardj.github.io/water-webgpu) / [repo](https://github.com/piellardj/water-webgpu)
