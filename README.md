@@ -93,8 +93,8 @@ See it live here: [piellardj.github.io](https://piellardj.github.io).
 ### F5 persistence cookie: [live](https://piellardj.github.io/f5-persistence-cookie) / [repo](https://github.com/piellardj/f5-persistence-cookie)
 ![Screenshot for F5 persistence cookie](images/projects/f5-persistence-cookie_512.png)
 
-### TOTP Generator: [live](https://piellardj.github.io/totp-generator) / [repo](https://github.com/piellardj/totp-generator)
-![Screenshot for TOTP Generator](images/projects/totp-generator_512.png)
+### TOTP generator: [live](https://piellardj.github.io/totp-generator) / [repo](https://github.com/piellardj/totp-generator)
+![Screenshot for TOTP generator](images/projects/totp-generator_512.png)
 ## Projects: OpenGL / other
 
 ### Voxelizer: [repo](https://github.com/piellardj/voxelizer-gpu)

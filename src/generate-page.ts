@@ -371,7 +371,7 @@ const data = {
                     background: "images/projects/totp-generator_512.png",
                     background_light: "images/projects/totp-generator_512.webp",
                     background_light_highdpi: "images/projects/totp-generator_1024.webp",
-                    title: "TOTP Generator",
+                    title: "TOTP generator",
                     body: [
                         "This is an online tool to generate TOTP codes like an app such as Google Authenticator would do.",
                         "You can bookmark this page to remember the secret. Keep in mind that it is safer to use a dedicated app."
