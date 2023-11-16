@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/node": "^20.3.0",
     "@types/sharp": "^0.32.0",
-    "sharp": "^0.32.1",
+    "sharp": "^0.32.6",
     "shx": "^0.3.4",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3",
