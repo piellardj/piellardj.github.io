@@ -1,6 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
 
+import * as Data from "./data";
+
 interface IReadmeProject {
     background: string;
     title: string;
@@ -20,7 +22,7 @@ interface IReadmeData {
 
 function buildLiveLink(description: IReadmeProject): string {
     const parts: string[] = [
-        "https://piellardj.github.io",
+        Data.websiteOrigin,
         description.projectName,
     ];
     if (typeof description.liveLinkArguments === "string") {
@@ -42,7 +44,7 @@ function buildLinks(description: IReadmeProject): string {
         if (indexOfFirstSlash > 0) {
             repoName = repoName.substring(0, indexOfFirstSlash);
         }
-        const repoLink = `https://github.com/piellardj/${repoName}`;
+        const repoLink = `${Data.githubUserUrl}/${repoName}`;
         links.push(`[repo](${repoLink})`);
     }
 

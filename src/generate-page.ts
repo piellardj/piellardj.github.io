@@ -3,6 +3,7 @@ import sharp from "sharp";
 import { Homepage } from "webpage-templates";
 import { IHomepageData } from "webpage-templates/build/script/homepage/i-homepage-data";
 import * as Readme from "./readme";
+import * as Sitemap from "./sitemap";
 
 if (process.argv.length !== 3) {
     console.log("Usage: <script> <dstDir>");
@@ -462,6 +463,14 @@ async function start(): Promise<void> {
 
     Homepage.build(data as IHomepageData, destinationDir);
     Readme.generate(data);
+
+    const projectNames: string[] = [];
+    data.sections.forEach(section => {
+        section.cards.forEach(card => {
+            projectNames.push(card.projectName);
+        })
+    })
+    Sitemap.generate(projectNames);
 }
 
 start();
