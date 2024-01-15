@@ -12,8 +12,8 @@ if (process.argv.length !== 3) {
 const destinationDir = process.argv[2];
 
 const data = {
-    title: "Projects - Jérémie Piellard",
-    description: "Portfolio of small OpenGL and WebGL projects",
+    title: "Jérémie Piellard · Portfolio of WebGL and WebGPU projects",
+    description: "This website is a portfolio showcasing my projects. My interests resolve around physical simulation and generative art. I mostly use WebGL and WebGPU for GPGPU in the browser.",
     sections: [
         {
             title: "Web",
