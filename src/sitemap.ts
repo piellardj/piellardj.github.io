@@ -5,6 +5,11 @@ import { Readable } from "stream";
 import xmlFormat from "xml-formatter";
 import * as Data from "./data";
 
+async function doesUrlExist(url: string): Promise<boolean> {
+    const request = await fetch(url);
+    return (request.status === 200);
+}
+
 async function generate(projectNames: string[]): Promise<void> {
     const now = new Date().toJSON();
 
@@ -20,23 +25,29 @@ async function generate(projectNames: string[]): Promise<void> {
     }];
 
     for (const projectName of projectNames) {
-        links.push({
-            url: projectName + "/",
-            lastmod: now,
-            priority: 0.8,
-        });
-
-        const readmeUrl = `${Data.websiteOrigin}/${projectName}/readme`;
-        const readmeRequest = await fetch(readmeUrl);
-        if (readmeRequest.status === 200) {
+        const projectUrl = `${Data.websiteOrigin}/${projectName}`;
+        if (await doesUrlExist(projectUrl)) {
             links.push({
-                url: readmeUrl,
+                url: projectName + "/",
                 lastmod: now,
-                priority: 0.7,
+                priority: 0.8,
             });
+
+            const readmeUrl = `${Data.websiteOrigin}/${projectName}/readme`;
+            if (await doesUrlExist(readmeUrl)) {
+                links.push({
+                    url: readmeUrl,
+                    lastmod: now,
+                    priority: 0.7,
+                });
+            } else {
+                if (!["diamond-webgl/jewelry"].includes(projectName)) {
+                    console.log(`${projectUrl} has no readme.`);
+                }
+            }
         } else {
-            if (!["diamond-webgl/jewelry", "voxelizer-gpu", "parallax-mapping", "fractal-navigator", "particles-gpu", "sampler2D"].includes(projectName)) {
-                console.log(`${readmeUrl} has no readme.`);
+            if (!["voxelizer-gpu", "parallax-mapping", "fractal-navigator", "particles-gpu", "sampler2D"].includes(projectName)) {
+                console.log(`${projectUrl} has no link.`);
             }
         }
     }
