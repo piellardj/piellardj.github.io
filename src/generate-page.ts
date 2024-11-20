@@ -20,6 +20,18 @@ const data = {
             title: "Web",
             cards: [
                 {
+                    background: "images/projects/fur-threejs_512.jpg",
+                    background_light: "images/projects/fur-threejs_512.webp",
+                    background_light_highdpi: "images/projects/fur-threejs_1024.webp",
+                    title: "Fur",
+                    body: [
+                        "This project is my take on real-time fur rendering. It is flexible and can adapt to any 3D model. A few properties are customizable, such as length, thickness, orientation and color patterns.",
+                        "Technically, I implemented the traditional shells and fins technique, adapted for WebGL.",
+                    ],
+                    projectName: "fur-threejs",
+                    liveLink: true,
+                },
+                {
                     background: "images/projects/water-webgpu_512.jpg",
                     background_light: "images/projects/water-webgpu_512.webp",
                     background_light_highdpi: "images/projects/water-webgpu_1024.webp",

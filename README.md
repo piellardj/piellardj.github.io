@@ -7,6 +7,9 @@ See it live here: [piellardj.github.io](https://piellardj.github.io).
 
 ## Projects: Web
 
+### Fur: [live](https://piellardj.github.io/fur-threejs) / [repo](https://github.com/piellardj/fur-threejs)
+![Screenshot for Fur](images/projects/fur-threejs_512.jpg)
+
 ### Water (WebGPU): [live](https://piellardj.github.io/water-webgpu) / [repo](https://github.com/piellardj/water-webgpu)
 ![Screenshot for Water (WebGPU)](images/projects/water-webgpu_512.jpg)
 
