@@ -53,6 +53,13 @@ var Page;
             logo.onauxclick = randomizeLogoHref;
             randomizeLogoHref();
         }
+        var aboutToggle = document.getElementById("about-toggle");
+        var contents = document.getElementById("about-container");
+        if (aboutToggle && contents) {
+            aboutToggle.addEventListener("click", function () {
+                contents.classList.toggle("visible");
+            });
+        }
     })(Homepage = Page.Homepage || (Page.Homepage = {}));
 })(Page || (Page = {}));
 

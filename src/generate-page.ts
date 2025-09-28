@@ -15,6 +15,10 @@ const destinationDir = process.argv[2];
 const data = {
     title: "Jérémie Piellard · Portfolio of WebGL and WebGPU projects",
     description: "This website is a portfolio showcasing my projects. My interests resolve around physical simulation and generative art. I mostly use WebGL and WebGPU for GPGPU in the browser.",
+    about: [
+        "Hi, I'm Jérémie. Here you'll find a collection of my hobby projects from over the years. Each one is an experiment exploring a specific theme, whether mathematical, technical, or artistic.",
+        "You can find me on <a href='https://github.com/piellardj'>GitHub</a>, <a href='https://gitlab.com/piellardj'>GitLab</a> and <a href='https://www.upwork.com/freelancers/~01cb6354d39eb68dbb?mp_source=share'>Upwork</a>.",
+    ],
     sections: [
         {
             title: "Web",
