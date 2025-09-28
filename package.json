@@ -8,6 +8,7 @@
   "license": "ISC",
   "scripts": {
     "pre-commit": "npm run rebuild",
+    "http-server": "http-server . -p 8080 -c-1 --cors",
     "generate-page": "ts-node-script src/generate-page.ts .",
     "build": "npm run generate-page",
     "rebuild": "npm run clean && npm run build",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@types/node": "^20.19.17",
     "@types/sharp": "^0.32.0",
+    "http-server": "^14.1.1",
     "sharp": "^0.33.5",
     "shx": "^0.3.4",
     "sitemap": "^7.1.2",
